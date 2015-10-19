@@ -5,7 +5,7 @@ Each folder contains a demo and an easy to follow script that will explain more 
 
 ## Getting started
 1. Download OzCode from: http://www.oz-code.com/
-2. Clone this repository OR Download ZIP
+2. Clone this repository OR use "Download ZIP" 
 3. Open OzCodeDemo.sln file in Visual Studio
 4. Compile and Run
 5. Find the md file for that feature (below) and follow the instructions.

@@ -66,6 +66,9 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DemoClasses\Address.cs" />
+    <Compile Include="DemoClasses\Customer.cs" />
+    <Compile Include="DemoClasses\CustomerRepository.cs" />
     <Compile Include="DemoName.cs" />
     <Compile Include="IOzCodeDemo.cs" />
     <Compile Include="MainWindow.xaml.cs">
@@ -120,6 +123,16 @@
     <Resource Include="Resources\trace.png" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Resource Include="01.Reveal\Resources\customersFromParis.png" />
+    <Resource Include="01.Reveal\Resources\cutomersWithAddresses.png" />
+    <Resource Include="01.Reveal\Resources\DebuggerBreak.PNG" />
+    <Resource Include="01.Reveal\Resources\RevealButton.PNG" />
+    <Resource Include="01.Reveal\Resources\RevealCustomersAndAddresses.png" />
+    <Resource Include="01.Reveal\Resources\RevealFullName.png" />
+    <Resource Include="01.Reveal\Resources\WatchWindow1.png" />
+    <Resource Include="01.Reveal\Resources\WatchWindow2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
