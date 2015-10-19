@@ -10,7 +10,7 @@ In order to run this demo press the _Reveal_ button in the application.
 Notice that a breakpoint has been triggered. 
 It seems that although we're in a method that should only be used to send packages outside of the country (US) somehow we got a package that should have been shipped using local shipping method:  
 
-![Debug break](Resources/DebuggerBreak.png)  
+![Debug break](Resources/DebuggerBreak.PNG)  
 The heads up display does not tell me too much and traversing _Customer_ class can be a pain since it has so many fields. 
 Move the cursor over customer until the watch window appear. Then expand the cutomer fields using the '+'. 
 
