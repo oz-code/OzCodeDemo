@@ -1,0 +1,41 @@
+﻿<Window x:Class="OzCodeDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OzCodeDemo"
+        mc:Ignorable="d"
+         Title="OzCode Demo" ResizeMode="CanMinimize" SizeToContent="WidthAndHeight" Icon="Resources\ozcode.ico">
+    <Grid>
+        <Grid.Resources>
+            <Style TargetType="{x:Type Image}">
+                <Setter Property="Height" Value="32"/>
+                <Setter Property="Width" Value="32"/>
+                <Setter Property="Stretch" Value="Uniform"/>
+                <Setter Property="Margin" Value="5"/>
+            </Style>
+            <Style TargetType="{x:Type Button}">
+                <Setter Property="Width" Value="200" />
+                <Setter Property="Height" Value="128" />
+            </Style>
+        </Grid.Resources>
+        <UniformGrid TextElement.FontSize="20" ButtonBase.Click="ButtonClick" Columns="4" Rows="4">
+            <UniformGrid.Resources>
+                <Style TargetType="TextBlock">
+                    <Setter Property="Margin" Value="0,10" />
+                </Style>
+                <Style TargetType="Button">
+                    <Setter Property="Margin" Value="4" />
+                    <Setter Property="Padding" Value="5" />
+                </Style>
+            </UniformGrid.Resources>
+            
+            <Button x:Name="Reveal"   >
+                <StackPanel>
+                    <TextBlock Text="Reveal" />
+                    <Image Source="Resources\reveal.png" />
+                </StackPanel>
+            </Button>
+        </UniformGrid>
+    </Grid>
+</Window>
