@@ -6,7 +6,7 @@ When debugging objects and collections, you are often looking for a specific pro
 
 ##Using Search
 In order to run this demo press the _Search_ button in the demo application.  
-![Reveal button](Resources/SearchButton.PNG)
+![Search button](Resources/SearchButton.png)
 
 Immediately A messagebox pops since an exception was thrown:
  
