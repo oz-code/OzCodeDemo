@@ -11,7 +11,7 @@ Each folder contains a demo and an easy to follow script that will explain more 
 5. Find the md file for that feature (below) and follow the instructions.
  
 ## Features documented
-* [Reveal](OzCodeDemo/01.Reveal/RevealDemo.MD)
+* [Reveal](OzCodeDemo/01.Reveal/README.MD)
 
 ## About OzCode
 OzCode was created by CodeValue’s experts, who felt they needed a tool to accelerate and enhance their day-to-day debugging in Visual Studio. Their goal was to design a debugging environment that would be a pleasure to work with.
