@@ -29,19 +29,25 @@
                     <Setter Property="Padding" Value="5" />
                 </Style>
             </UniformGrid.Resources>
-
+            <Button x:Name="Reveal"   >
+                <StackPanel>
+                    <TextBlock Text="Reveal" />
+                    <Image Source="Resources\reveal.png" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="Search"  >
+                <StackPanel>
+                    <TextBlock Text="Search" />
+                    <Image Source="Resources\search.png" />
+                </StackPanel>
+            </Button>
             <Button x:Name="Simplify" IsEnabled="False" >
                 <StackPanel>
                     <TextBlock Text="Simplify" />
                     <Image Source="Resources\simplify.png" />
                 </StackPanel>
             </Button>
-            <Button x:Name="Search"  IsEnabled="False"  >
-                <StackPanel>
-                    <TextBlock Text="Search" />
-                    <Image Source="Resources\search.png" />
-                </StackPanel>
-            </Button>
+          
             <Button x:Name="Compare"  IsEnabled="False" >
                 <StackPanel>
                     <TextBlock Text="Compare"  />
@@ -54,12 +60,7 @@
                     <Image Source="Resources\foresee.png" />
                 </StackPanel>
             </Button>
-            <Button x:Name="Reveal"   >
-                <StackPanel>
-                    <TextBlock Text="Reveal" />
-                    <Image Source="Resources\reveal.png" />
-                </StackPanel>
-            </Button>
+            
             <Button x:Name="FilterCollections" IsEnabled="False"   >
                 <StackPanel>
                     <TextBlock Text="Filter Collections" />

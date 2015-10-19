@@ -62,6 +62,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Compile Include="01.Reveal\RevealDemo.cs" />
+    <Compile Include="DemoClasses\AnotherTestComponent.cs" />
+    <Compile Include="DemoClasses\ITestComponent.cs" />
+    <Compile Include="02.Search\SearchDemo.cs" />
+    <Compile Include="DemoClasses\TestComponent.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -95,6 +99,7 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="01.Reveal\README.MD" />
+    <None Include="02.Search\README.md" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -132,6 +137,14 @@
     <Resource Include="01.Reveal\Resources\RevealFullName.png" />
     <Resource Include="01.Reveal\Resources\WatchWindow1.png" />
     <Resource Include="01.Reveal\Resources\WatchWindow2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="02.Search\Resources\breakonexceptions.png" />
+    <Resource Include="02.Search\Resources\exception.png" />
+    <Resource Include="02.Search\Resources\SearchButton.png" />
+    <Resource Include="02.Search\Resources\searchforitestcomponent.png" />
+    <Resource Include="02.Search\Resources\searchforitestcomponentdeeper.png" />
+    <Resource Include="02.Search\Resources\searchfortest.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
