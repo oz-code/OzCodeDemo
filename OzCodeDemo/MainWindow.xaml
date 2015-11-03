@@ -19,7 +19,7 @@
                 <Setter Property="Height" Value="128" />
             </Style>
         </Grid.Resources>
-        <UniformGrid TextElement.FontSize="20" ButtonBase.Click="ButtonClick" Columns="4" Rows="4">
+        <UniformGrid TextElement.FontSize="20" ButtonBase.Click="ButtonClick" Columns="2" Rows="2">
             <UniformGrid.Resources>
                 <Style TargetType="TextBlock">
                     <Setter Property="Margin" Value="0,10" />
@@ -47,7 +47,13 @@
                     <Image Source="Resources\show-instances.png" />
                 </StackPanel>
             </Button>
-            <Button x:Name="Simplify" IsEnabled="False" >
+            <Button x:Name="ConditionalBreakpoints" >
+                <StackPanel>
+                    <TextBlock Text="Conditional Breakpoints" />
+                    <Image Source="Resources\quick-actions.png" />
+                </StackPanel>
+            </Button>
+            <!--<Button x:Name="Simplify" IsEnabled="False" >
                 <StackPanel>
                     <TextBlock Text="Simplify" />
                     <Image Source="Resources\simplify.png" />
@@ -86,12 +92,6 @@
                     <Image Source="Resources\quick_attach.png" />
                 </StackPanel>
             </Button>
-            <Button x:Name="QuickActions"  IsEnabled="False"  >
-                <StackPanel>
-                    <TextBlock Text="QuickActions" />
-                    <Image Source="Resources\quick-actions.png" />
-                </StackPanel>
-            </Button>
             <Button x:Name="ExceptionTrail" IsEnabled="False"  >
                 <StackPanel>
                     <TextBlock Text="Exception Trail" />
@@ -121,7 +121,7 @@
                     <TextBlock Text="Precognition" />
                     <Image Source="Resources\eye_scan.png" />
                 </StackPanel>
-            </Button>
+            </Button>-->
         </UniformGrid>
     </Grid>
 </Window>

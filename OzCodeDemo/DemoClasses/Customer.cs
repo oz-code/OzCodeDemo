@@ -12,8 +12,6 @@ namespace OzCodeDemo.DemoClasses
     {
         public Customer Parent { get; set; }
 
-        public string FullName { get; set; }
-
         public int Age
         {
             get

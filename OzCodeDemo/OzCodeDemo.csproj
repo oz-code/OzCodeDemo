@@ -62,6 +62,7 @@
       <SubType>Designer</SubType>
     </Page>
     <Compile Include="01.Reveal\RevealDemo.cs" />
+    <Compile Include="04.ConditionalBreakpoints\ConditionalBreakpointsDemo.cs" />
     <Compile Include="DemoClasses\CustomerController.cs" />
     <Compile Include="DemoClasses\Invoice.cs" />
     <Compile Include="DemoClasses\InvoiceProcessingException.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="DemoClasses\AnotherTestComponent.cs" />
     <Compile Include="DemoClasses\ITestComponent.cs" />
     <Compile Include="02.Search\SearchDemo.cs" />
+    <Compile Include="DemoClasses\PaymentValidation.cs" />
     <Compile Include="DemoClasses\TestComponent.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
@@ -107,6 +109,7 @@
     <None Include="01.Reveal\README.md" />
     <None Include="02.Search\README.md" />
     <None Include="03.ShowAllInstances\README.md" />
+    <None Include="04.ConditionalBreakpoints\README.md" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -117,6 +120,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="03.ShowAllInstances\Resources\showQuickActions.PNG" />
     <Resource Include="Resources\breakpoint_set.png" />
     <Resource Include="Resources\compare.png" />
     <Resource Include="Resources\custom.png" />
@@ -165,8 +169,17 @@
     <Resource Include="03.ShowAllInstances\Resources\exceptionCaught.PNG" />
     <Resource Include="03.ShowAllInstances\Resources\exceptionThrown.PNG" />
     <Resource Include="03.ShowAllInstances\Resources\SearchForCustomer.PNG" />
-    <Resource Include="03.ShowAllInstances\Resources\showQuickActions.PNG" />
     <Resource Include="03.ShowAllInstances\Resources\viewWholeCustomer.PNG" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="04.ConditionalBreakpoints\Resources\ConditionalBreakPoint1_1.PNG" />
+    <Resource Include="04.ConditionalBreakpoints\Resources\ConditionalBreakPoint1_2.PNG" />
+    <Resource Include="04.ConditionalBreakpoints\Resources\ConditionalBreakPoint1_3.PNG" />
+    <Resource Include="04.ConditionalBreakpoints\Resources\conditionalBreakPoint2_1.PNG" />
+    <Resource Include="04.ConditionalBreakpoints\Resources\ConditionalBreakpointsButton.PNG" />
+    <Resource Include="04.ConditionalBreakpoints\Resources\CustomActions.PNG" />
+    <Resource Include="04.ConditionalBreakpoints\Resources\problemFound.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

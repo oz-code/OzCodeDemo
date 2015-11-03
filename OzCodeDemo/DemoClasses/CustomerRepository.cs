@@ -431,7 +431,7 @@ namespace OzCodeDemo.DemoClasses
                     TelephoneNumber = "240-516-4199",
                     MothersMaiden = "Taylor",
                     Birthday = Convert.ToDateTime("17-Nov-61"),
-                    CCType = "MasterCard",
+                    CCType = "AmericanExpress",
                     CCNumber = "5342768371267130",
                     CVV2 = "47",
                     CCExpires = "41456",
@@ -555,7 +555,7 @@ namespace OzCodeDemo.DemoClasses
                     TelephoneNumber = "620-564-4034",
                     MothersMaiden = "Evans",
                     Birthday = Convert.ToDateTime("18-Jun-69"),
-                    CCType = "Visa",
+                    CCType = "DinersClub",
                     CCNumber = "4539650788619230",
                     CVV2 = "875",
                     CCExpires = "40756",
@@ -709,7 +709,7 @@ namespace OzCodeDemo.DemoClasses
                     TelephoneNumber = "408-424-1230",
                     MothersMaiden = "Tibbits",
                     Birthday = Convert.ToDateTime("22-Aug-54"),
-                    CCType = "MasterCard",
+                    CCType = "AmericanExpress",
                     CCNumber = "5429154524027540",
                     CVV2 = "723",
                     CCExpires = "42095",
@@ -801,7 +801,7 @@ namespace OzCodeDemo.DemoClasses
                     TelephoneNumber = "304-231-9893",
                     MothersMaiden = "Alvarado",
                     Birthday = Convert.ToDateTime("6-Sep-37"),
-                    CCType = "MasterCard",
+                    CCType = "AmericanExpress",
                     CCNumber = "5319888841743470",
                     CVV2 = "76",
                     CCExpires = "41699",
@@ -894,7 +894,7 @@ namespace OzCodeDemo.DemoClasses
                     TelephoneNumber = "260-483-4269",
                     MothersMaiden = "Lopez",
                     Birthday = Convert.ToDateTime("26-Nov-59"),
-                    CCType = "MasterCard",
+                    CCType = "AmericanExpress",
                     CCNumber = "5416751825500400",
                     CVV2 = "362",
                     CCExpires = "41913",
@@ -968,11 +968,7 @@ namespace OzCodeDemo.DemoClasses
                     Centimeters = "183",
                 },
             };
-            foreach (var customer in customers)
-            {
-                customer.FullName = customer.FirstName + " " + customer.Surname;
-            }
-
+          
             return customers;
         }
     }
