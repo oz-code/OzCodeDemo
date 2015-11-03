@@ -41,6 +41,12 @@
                     <Image Source="Resources\search.png" />
                 </StackPanel>
             </Button>
+            <Button x:Name="ShowAllInstances"  >
+                <StackPanel>
+                    <TextBlock Text="Show All Instances" />
+                    <Image Source="Resources\show-instances.png" />
+                </StackPanel>
+            </Button>
             <Button x:Name="Simplify" IsEnabled="False" >
                 <StackPanel>
                     <TextBlock Text="Simplify" />
@@ -90,12 +96,6 @@
                 <StackPanel>
                     <TextBlock Text="Exception Trail" />
                     <Image Source="Resources\exceptions-trail.png" />
-                </StackPanel>
-            </Button>
-            <Button x:Name="ShowAllInstances" IsEnabled="False"  >
-                <StackPanel>
-                    <TextBlock Text="Show All Instances" />
-                    <Image Source="Resources\show-instances.png" />
                 </StackPanel>
             </Button>
             <Button x:Name="EnhancedTrace" IsEnabled="False" >

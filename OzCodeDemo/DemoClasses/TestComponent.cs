@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.Composition;
 
-namespace OzCodeDemo._02.Search
+namespace OzCodeDemo.DemoClasses
 {
     [Export(typeof(ITestComponent))]
     public class TestComponent : ITestComponent

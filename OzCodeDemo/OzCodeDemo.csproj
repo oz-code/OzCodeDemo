@@ -62,6 +62,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Compile Include="01.Reveal\RevealDemo.cs" />
+    <Compile Include="DemoClasses\CustomerController.cs" />
+    <Compile Include="DemoClasses\Invoice.cs" />
+    <Compile Include="DemoClasses\InvoiceProcessingException.cs" />
+    <Compile Include="DemoClasses\InvoiceSender.cs" />
+    <Compile Include="DemoClasses\InvoiceService.cs" />
+    <Compile Include="03.ShowAllInstances\ShowAllInstancesDemo.cs" />
     <Compile Include="DemoClasses\AnotherTestComponent.cs" />
     <Compile Include="DemoClasses\ITestComponent.cs" />
     <Compile Include="02.Search\SearchDemo.cs" />
@@ -100,6 +106,7 @@
     </EmbeddedResource>
     <None Include="01.Reveal\README.md" />
     <None Include="02.Search\README.md" />
+    <None Include="03.ShowAllInstances\README.md" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -127,7 +134,9 @@
     <Resource Include="Resources\simplify.png" />
     <Resource Include="Resources\trace.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="03.ShowAllInstances\Resources\breakonexceptions.png" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="01.Reveal\Resources\customersFromParis.png" />
     <Resource Include="01.Reveal\Resources\cutomersWithAddresses.png" />
@@ -145,6 +154,19 @@
     <Resource Include="02.Search\Resources\searchforitestcomponent.png" />
     <Resource Include="02.Search\Resources\searchforitestcomponentdeeper.png" />
     <Resource Include="02.Search\Resources\searchfortest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="03.ShowAllInstances\Resources\ShowAllInstancesButton.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="03.ShowAllInstances\Resources\copyValue.png" />
+    <Resource Include="03.ShowAllInstances\Resources\customerIsNull.PNG" />
+    <Resource Include="03.ShowAllInstances\Resources\emailIsNullInCustomer.PNG" />
+    <Resource Include="03.ShowAllInstances\Resources\exceptionCaught.PNG" />
+    <Resource Include="03.ShowAllInstances\Resources\exceptionThrown.PNG" />
+    <Resource Include="03.ShowAllInstances\Resources\SearchForCustomer.PNG" />
+    <Resource Include="03.ShowAllInstances\Resources\showQuickActions.PNG" />
+    <Resource Include="03.ShowAllInstances\Resources\viewWholeCustomer.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

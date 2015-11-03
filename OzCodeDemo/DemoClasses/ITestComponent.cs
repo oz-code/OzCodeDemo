@@ -1,4 +1,4 @@
-﻿namespace OzCodeDemo._02.Search
+﻿namespace OzCodeDemo.DemoClasses
 {
     internal interface ITestComponent
     {

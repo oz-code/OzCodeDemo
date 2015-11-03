@@ -2,6 +2,7 @@
 using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
 using System.Windows;
+using OzCodeDemo.DemoClasses;
 
 namespace OzCodeDemo._02.Search
 {
