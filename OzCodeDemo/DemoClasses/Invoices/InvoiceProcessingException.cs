@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace OzCodeDemo.DemoClasses
+namespace OzCodeDemo.DemoClasses.Invoices
 {
     [Serializable]
     public class InvoiceProcessingException : Exception

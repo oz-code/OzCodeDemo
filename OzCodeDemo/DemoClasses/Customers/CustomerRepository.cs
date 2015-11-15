@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace OzCodeDemo.DemoClasses
+namespace OzCodeDemo.DemoClasses.Customers
 {
     public static class CustomersRepository
     {

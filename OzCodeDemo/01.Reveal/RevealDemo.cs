@@ -1,10 +1,9 @@
-﻿using System.CodeDom;
-using System.ComponentModel.Composition;
-using System.Linq;
+﻿using System.ComponentModel.Composition;
 using System.Diagnostics;
-using OzCodeDemo.DemoClasses;
+using System.Linq;
+using OzCodeDemo.DemoClasses.Customers;
 
-namespace OzCodeDemo._01._Reveal
+namespace OzCodeDemo._01.Reveal
 {
     [Export(typeof(IOzCodeDemo))]
     [ExportMetadata("Demo", "Reveal")]

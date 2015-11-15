@@ -2,8 +2,9 @@
 using System.Collections.Concurrent;
 using System.Threading;
 using System.Windows;
+using OzCodeDemo.DemoClasses.Customers;
 
-namespace OzCodeDemo.DemoClasses
+namespace OzCodeDemo.DemoClasses.Invoices
 {
     public class InvoiceService
     {

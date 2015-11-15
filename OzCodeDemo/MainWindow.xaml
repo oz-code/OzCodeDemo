@@ -3,7 +3,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:OzCodeDemo"
         mc:Ignorable="d"
          Title="OzCode Demo" ResizeMode="CanMinimize" SizeToContent="WidthAndHeight" Icon="Resources\ozcode.ico">
     <Grid>
@@ -19,7 +18,7 @@
                 <Setter Property="Height" Value="128" />
             </Style>
         </Grid.Resources>
-        <UniformGrid TextElement.FontSize="20" ButtonBase.Click="ButtonClick" Columns="2" Rows="2">
+        <UniformGrid TextElement.FontSize="20" ButtonBase.Click="ButtonClick" Columns="3" Rows="2">
             <UniformGrid.Resources>
                 <Style TargetType="TextBlock">
                     <Setter Property="Margin" Value="0,10" />
@@ -51,6 +50,12 @@
                 <StackPanel>
                     <TextBlock Text="Conditional Breakpoints" />
                     <Image Source="Resources\quick-actions.png" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="ExceptionTrail"  >
+                <StackPanel>
+                    <TextBlock Text="Exception Trail" />
+                    <Image Source="Resources\exceptions-trail.png" />
                 </StackPanel>
             </Button>
             <!--<Button x:Name="Simplify" IsEnabled="False" >
@@ -91,14 +96,9 @@
                     <TextBlock Text="QuickAttach" />
                     <Image Source="Resources\quick_attach.png" />
                 </StackPanel>
-            </Button>
-            <Button x:Name="ExceptionTrail" IsEnabled="False"  >
-                <StackPanel>
-                    <TextBlock Text="Exception Trail" />
-                    <Image Source="Resources\exceptions-trail.png" />
-                </StackPanel>
-            </Button>
-            <Button x:Name="EnhancedTrace" IsEnabled="False" >
+            </Button> -->
+            
+            <!--<Button x:Name="EnhancedTrace" IsEnabled="False" >
                 <StackPanel>
                     <TextBlock Text="Trace" />
                     <Image Source="Resources\trace.png" />

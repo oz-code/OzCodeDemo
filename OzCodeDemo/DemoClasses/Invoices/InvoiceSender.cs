@@ -1,7 +1,7 @@
 using System;
 using System.Diagnostics;
 
-namespace OzCodeDemo.DemoClasses
+namespace OzCodeDemo.DemoClasses.Invoices
 {
     internal class InvoiceSender
     {

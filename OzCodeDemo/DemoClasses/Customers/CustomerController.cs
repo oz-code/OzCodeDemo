@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace OzCodeDemo.DemoClasses
+namespace OzCodeDemo.DemoClasses.Customers
 {
     internal class CustomerController
     {

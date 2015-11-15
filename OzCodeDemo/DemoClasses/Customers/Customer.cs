@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OzCodeDemo.DemoClasses
+namespace OzCodeDemo.DemoClasses.Customers
 {
     public enum Gender
     {

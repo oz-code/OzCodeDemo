@@ -1,4 +1,4 @@
-﻿namespace OzCodeDemo.DemoClasses
+﻿namespace OzCodeDemo.DemoClasses.Invoices
 {
     class Invoice
     {

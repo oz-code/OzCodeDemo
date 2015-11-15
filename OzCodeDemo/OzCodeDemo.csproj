@@ -63,24 +63,37 @@
     </Page>
     <Compile Include="01.Reveal\RevealDemo.cs" />
     <Compile Include="04.ConditionalBreakpoints\ConditionalBreakpointsDemo.cs" />
-    <Compile Include="DemoClasses\CustomerController.cs" />
-    <Compile Include="DemoClasses\Invoice.cs" />
-    <Compile Include="DemoClasses\InvoiceProcessingException.cs" />
-    <Compile Include="DemoClasses\InvoiceSender.cs" />
-    <Compile Include="DemoClasses\InvoiceService.cs" />
+    <Compile Include="DemoClasses\EmailClient.cs" />
+    <Compile Include="05.ExceptionTrail\ExceptionTrailDemo.cs" />
+    <Compile Include="DemoClasses\Orders\GroundShippingCalculator.cs" />
+    <Compile Include="DemoClasses\Orders\IShippingCalculator.cs" />
+    <Compile Include="DemoClasses\Orders\OrderRepository.cs" />
+    <Compile Include="DemoClasses\Orders\OvernightShippingCalculator.cs" />
+    <Compile Include="DemoClasses\Orders\PriorityShippingCalculator.cs" />
+    <Compile Include="DemoClasses\Orders\ShippingService.cs" />
+    <Compile Include="DemoClasses\Orders\Order.cs" />
+    <Compile Include="DemoClasses\Orders\ShippingMethod.cs" />
+    <Compile Include="DemoClasses\Customers\CustomerController.cs" />
+    <Compile Include="DemoClasses\Invoices\Invoice.cs" />
+    <Compile Include="DemoClasses\Invoices\InvoiceProcessingException.cs" />
+    <Compile Include="DemoClasses\Invoices\InvoiceSender.cs" />
+    <Compile Include="DemoClasses\Invoices\InvoiceService.cs" />
     <Compile Include="03.ShowAllInstances\ShowAllInstancesDemo.cs" />
     <Compile Include="DemoClasses\AnotherTestComponent.cs" />
     <Compile Include="DemoClasses\ITestComponent.cs" />
     <Compile Include="02.Search\SearchDemo.cs" />
+    <Compile Include="DemoClasses\Orders\IllegalOrderException.cs" />
+    <Compile Include="DemoClasses\Orders\OrderProcessingException.cs" />
+    <Compile Include="DemoClasses\Orders\TwoDayShippingCalculator.cs" />
     <Compile Include="DemoClasses\PaymentValidation.cs" />
     <Compile Include="DemoClasses\TestComponent.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DemoClasses\Address.cs" />
-    <Compile Include="DemoClasses\Customer.cs" />
-    <Compile Include="DemoClasses\CustomerRepository.cs" />
+    <Compile Include="DemoClasses\Customers\Address.cs" />
+    <Compile Include="DemoClasses\Customers\Customer.cs" />
+    <Compile Include="DemoClasses\Customers\CustomerRepository.cs" />
     <Compile Include="DemoName.cs" />
     <Compile Include="IOzCodeDemo.cs" />
     <Compile Include="MainWindow.xaml.cs">
@@ -110,6 +123,7 @@
     <None Include="02.Search\README.md" />
     <None Include="03.ShowAllInstances\README.md" />
     <None Include="04.ConditionalBreakpoints\README.md" />
+    <None Include="05.ExceptionTrail\README.md" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -171,7 +185,9 @@
     <Resource Include="03.ShowAllInstances\Resources\SearchForCustomer.PNG" />
     <Resource Include="03.ShowAllInstances\Resources\viewWholeCustomer.PNG" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="05.ExceptionTrail\Resources\exceptionTrailButton.PNG" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="04.ConditionalBreakpoints\Resources\ConditionalBreakPoint1_1.PNG" />
     <Resource Include="04.ConditionalBreakpoints\Resources\ConditionalBreakPoint1_2.PNG" />
@@ -180,6 +196,12 @@
     <Resource Include="04.ConditionalBreakpoints\Resources\ConditionalBreakpointsButton.PNG" />
     <Resource Include="04.ConditionalBreakpoints\Resources\CustomActions.PNG" />
     <Resource Include="04.ConditionalBreakpoints\Resources\problemFound.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="05.ExceptionTrail\Resources\breakOnException.PNG" />
+    <Resource Include="05.ExceptionTrail\Resources\exceptionDetails.PNG" />
+    <Resource Include="05.ExceptionTrail\Resources\gotoWhereExceptionWasThrown.PNG" />
+    <Resource Include="05.ExceptionTrail\Resources\searchException.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

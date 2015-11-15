@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.Composition;
 using System.Diagnostics;
-using System.Linq;
-using System.Windows.Documents;
-using System.Windows.Media.Converters;
 using OzCodeDemo.DemoClasses;
+using OzCodeDemo.DemoClasses.Customers;
 
 namespace OzCodeDemo._04.ConditionalBreakpoints
 {
@@ -17,7 +14,7 @@ namespace OzCodeDemo._04.ConditionalBreakpoints
 
         public void Start()
         {
-            IEnumerable<Customer> approvedCustomers = null;
+            IEnumerable<Customer> approvedCustomers;
             var allCustomers = CustomersRepository.LoadCustomersFromDb();
 
             approvedCustomers = _validation.Validate(allCustomers);

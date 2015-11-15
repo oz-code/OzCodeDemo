@@ -1,5 +1,7 @@
 ﻿using System.ComponentModel.Composition;
 using OzCodeDemo.DemoClasses;
+using OzCodeDemo.DemoClasses.Customers;
+using OzCodeDemo.DemoClasses.Invoices;
 
 namespace OzCodeDemo._03.ShowAllInstances
 {
