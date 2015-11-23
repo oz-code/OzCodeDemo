@@ -52,10 +52,17 @@
                     <Image Source="Resources\quick-actions.png" />
                 </StackPanel>
             </Button>
+           
             <Button x:Name="ExceptionTrail"  >
                 <StackPanel>
                     <TextBlock Text="Exception Trail" />
                     <Image Source="Resources\exceptions-trail.png" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="WhenSetBreak" >
+                <StackPanel>
+                    <TextBlock Text="When Set... Break" />
+                    <Image Source="Resources\tracepointWithBP.png" />
                 </StackPanel>
             </Button>
             <!--<Button x:Name="Simplify" IsEnabled="False" >

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
+using OzCodeDemo.DemoClasses.Customers;
+using OzCodeDemo._06.WhenSetBreakDemo;
 
 namespace OzCodeDemo.DemoClasses.Orders
 {
@@ -28,5 +30,17 @@ namespace OzCodeDemo.DemoClasses.Orders
 
         private static readonly string[] ItemList = new[] { "XBox One", "iPad", "LG G2", "PS4", "HTC1", "Nokia 1020" };
         private static readonly ShippingMethod[] ShippingMethods = Enum.GetValues(typeof(ShippingMethod)).Cast<ShippingMethod>().ToArray();
+
+        public static Customer GetOrderReciever(OrderInfo orderInfo)
+        {
+            if (Random.Next(0, 10) % 5 == 0)
+            {
+                var customerPool = CustomersRepository.LoadCustomersFromDb().Where(c => c.Address.Country == "US");
+
+                return customerPool.ElementAt(Random.Next(0, customerPool.Count() - 1));
+            }
+
+            return orderInfo.Customer;
+        }
     }
 }

@@ -63,8 +63,13 @@
     </Page>
     <Compile Include="01.Reveal\RevealDemo.cs" />
     <Compile Include="04.ConditionalBreakpoints\ConditionalBreakpointsDemo.cs" />
+    <Compile Include="DemoClasses\Orders\OrderProcessing.cs" />
+    <Compile Include="DemoClasses\Orders\BillingService.cs" />
+    <Compile Include="DemoClasses\Orders\OrderInfo.cs" />
+    <Compile Include="06.WhenSetBreakDemo\WhenSetBreakDemo.cs" />
     <Compile Include="DemoClasses\EmailClient.cs" />
     <Compile Include="05.ExceptionTrail\ExceptionTrailDemo.cs" />
+    <Compile Include="DemoClasses\Logger.cs" />
     <Compile Include="DemoClasses\Orders\GroundShippingCalculator.cs" />
     <Compile Include="DemoClasses\Orders\IShippingCalculator.cs" />
     <Compile Include="DemoClasses\Orders\OrderRepository.cs" />
@@ -86,6 +91,8 @@
     <Compile Include="DemoClasses\Orders\OrderProcessingException.cs" />
     <Compile Include="DemoClasses\Orders\TwoDayShippingCalculator.cs" />
     <Compile Include="DemoClasses\PaymentValidation.cs" />
+    <Compile Include="DemoClasses\Person.cs" />
+    <Compile Include="DemoClasses\PhoneBook.cs" />
     <Compile Include="DemoClasses\TestComponent.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
@@ -124,6 +131,7 @@
     <None Include="03.ShowAllInstances\README.md" />
     <None Include="04.ConditionalBreakpoints\README.md" />
     <None Include="05.ExceptionTrail\README.md" />
+    <None Include="06.WhenSetBreakDemo\README.md" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -202,6 +210,9 @@
     <Resource Include="05.ExceptionTrail\Resources\exceptionDetails.PNG" />
     <Resource Include="05.ExceptionTrail\Resources\gotoWhereExceptionWasThrown.PNG" />
     <Resource Include="05.ExceptionTrail\Resources\searchException.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\tracepointWithBP.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

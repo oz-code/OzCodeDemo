@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.ComponentModel.Composition;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using OzCodeDemo.DemoClasses;
 using OzCodeDemo.DemoClasses.Customers;
 using OzCodeDemo.DemoClasses.Orders;
 
