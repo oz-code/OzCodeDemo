@@ -63,6 +63,7 @@
     </Page>
     <Compile Include="01.Reveal\RevealDemo.cs" />
     <Compile Include="04.ConditionalBreakpoints\ConditionalBreakpointsDemo.cs" />
+    <Compile Include="07.FilterCollections\FilterCollectionsDemo.cs" />
     <Compile Include="DemoClasses\Orders\OrderProcessing.cs" />
     <Compile Include="DemoClasses\Orders\BillingService.cs" />
     <Compile Include="DemoClasses\Orders\OrderInfo.cs" />
@@ -132,6 +133,7 @@
     <None Include="04.ConditionalBreakpoints\README.md" />
     <None Include="05.ExceptionTrail\README.md" />
     <None Include="06.WhenSetBreakDemo\README.md" />
+    <None Include="07.FilterCollections\README.md" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -223,6 +225,15 @@
     <Resource Include="06.WhenSetBreakDemo\Resources\revealOnSet.PNG" />
     <Resource Include="06.WhenSetBreakDemo\Resources\rootCause.PNG" />
     <Resource Include="06.WhenSetBreakDemo\Resources\whenBreakSet.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="07.FilterCollections\Resources\ageLessThan62.PNG" />
+    <Resource Include="07.FilterCollections\Resources\ageMoreThan62.PNG" />
+    <Resource Include="07.FilterCollections\Resources\breakonexceptions.png" />
+    <Resource Include="07.FilterCollections\Resources\customersWithAge.PNG" />
+    <Resource Include="07.FilterCollections\Resources\editFilter.PNG" />
+    <Resource Include="07.FilterCollections\Resources\exception.PNG" />
+    <Resource Include="07.FilterCollections\Resources\filterCollectionsButton.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -18,7 +18,7 @@
                 <Setter Property="Height" Value="128" />
             </Style>
         </Grid.Resources>
-        <UniformGrid TextElement.FontSize="20" ButtonBase.Click="ButtonClick" Columns="3" Rows="2">
+        <UniformGrid TextElement.FontSize="20" ButtonBase.Click="ButtonClick" Columns="4" Rows="2">
             <UniformGrid.Resources>
                 <Style TargetType="TextBlock">
                     <Setter Property="Margin" Value="0,10" />
@@ -65,6 +65,12 @@
                     <Image Source="Resources\tracepointWithBP.png" />
                 </StackPanel>
             </Button>
+            <Button x:Name="FilterCollections"  >
+                <StackPanel>
+                    <TextBlock Text="Filter Collections" />
+                    <Image Source="Resources\filter.png" />
+                </StackPanel>
+            </Button>
             <!--<Button x:Name="Simplify" IsEnabled="False" >
                 <StackPanel>
                     <TextBlock Text="Simplify" />
@@ -85,12 +91,7 @@
                 </StackPanel>
             </Button>
             
-            <Button x:Name="FilterCollections" IsEnabled="False"   >
-                <StackPanel>
-                    <TextBlock Text="Filter Collections" />
-                    <Image Source="Resources\filter.png" />
-                </StackPanel>
-            </Button>
+            
             <Button x:Name="CustomExpression" IsEnabled="False"  >
                 <StackPanel>
                     <TextBlock Text="Custom Expressions" />
