@@ -214,6 +214,16 @@
   <ItemGroup>
     <Resource Include="Resources\tracepointWithBP.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="06.WhenSetBreakDemo\Resources\breakWhenSetDialog.PNG" />
+    <Resource Include="06.WhenSetBreakDemo\Resources\breakWhenSetDialogFinal.PNG" />
+    <Resource Include="06.WhenSetBreakDemo\Resources\chooseWhenSet.PNG" />
+    <Resource Include="06.WhenSetBreakDemo\Resources\logging.PNG" />
+    <Resource Include="06.WhenSetBreakDemo\Resources\processOrder.PNG" />
+    <Resource Include="06.WhenSetBreakDemo\Resources\revealOnSet.PNG" />
+    <Resource Include="06.WhenSetBreakDemo\Resources\rootCause.PNG" />
+    <Resource Include="06.WhenSetBreakDemo\Resources\whenBreakSet.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
