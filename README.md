@@ -16,7 +16,7 @@ Each folder contains a demo and an easy to follow script that will explain more 
 * [Show All Instances](OzCodeDemo/03.ShowAllInstances/README.md)
 * [Conditional Breakpoints](OzCodeDemo/04.ConditionalBreakpoints/README.md)
 * [Exception Trail](OzCodeDemo/05.ExceptionTrail/README.md)
-* [When Set... Break](OzCodeDemo)/06.WhenSetBreakDemo/README.md)
+* [When Set... Break](OzCodeDemo/06.WhenSetBreakDemo/README.md)
 
 ## About OzCode
 OzCode was created by CodeValue’s experts, who felt they needed a tool to accelerate and enhance their day-to-day debugging in Visual Studio. Their goal was to design a debugging environment that would be a pleasure to work with.
