@@ -5,7 +5,7 @@ When you’re debugging a tough problem, especially in debugging legacy code or 
 
 Simply use the “Create Tracepoint” command on the value you want to trace. A Tracepoint is just like a Breakpoint, except that instead of breaking the program’s execution, it writes a trace message.
 ##Using Trace
-In order to run this demo press the _Traces_ button in the demo application.  
+In order to run this demo press the _Trace_ button in the demo application.  
 
 ![Trace button](Resources/traceButton.PNG)
 
