@@ -2,7 +2,7 @@
 **Focus on data that actually matters**   
 
 ##Overview
-Objects can have many properties, but when debugging, not all of them are useful to you. You’re usually interested only in a selected few. For a Customer class, it might be the ID and Username properties, for a Point in 3D space, it might be the X, Y, and Z fields. With our “Reveal” feature, you can finally focus on the data that actually matters. 
+Objects can have many properties, but when debugging, not all of them are useful to you. You’re usually interested only in a select few. For a Customer class, it might be the ID and FullName properties. For a Point in 3D space, it might be the X, Y, and Z fields. With OzCode's "Reveal” feature, you can finally focus on the data that actually matters. 
 ##Using Reveal
 In order to run this demo press the _Reveal_ button in the demo application.  
 ![Reveal button](Resources/RevealButton.PNG)  
@@ -11,7 +11,7 @@ Notice that a breakpoint has been triggered.
 It seems that although we're in a method that should only be used to send packages outside of the country (US), somehow we got a package that should have been shipped using local shipping method:  
 
 ![Debug break](Resources/DebuggerBreak.PNG)  
-The head-up display (HUD) does not tell me too much, and traversing _Customer_ class can be a pain since it has so many fields. 
+Because nobody bothered to implement `ToString` on the Customer class, the Head-Up Display (HUD) does, and traversing _Customer_ class can be a pain since it has so many fields. 
 Move the cursor over customer until the watch window appears. Then expand the cutomer fields using the '+'. 
 
 ![RevealCustomerName](Resources/WatchWindow1.png) 
