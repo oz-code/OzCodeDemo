@@ -52,7 +52,7 @@
                     <Image Source="Resources\quick-actions.png" />
                 </StackPanel>
             </Button>
-           
+
             <Button x:Name="ExceptionTrail"  >
                 <StackPanel>
                     <TextBlock Text="Exception Trail" />
@@ -71,65 +71,12 @@
                     <Image Source="Resources\filter.png" />
                 </StackPanel>
             </Button>
-            <!--<Button x:Name="Simplify" IsEnabled="False" >
-                <StackPanel>
-                    <TextBlock Text="Simplify" />
-                    <Image Source="Resources\simplify.png" />
-                </StackPanel>
-            </Button>
-          
-            <Button x:Name="Compare"  IsEnabled="False" >
-                <StackPanel>
-                    <TextBlock Text="Compare"  />
-                    <Image Source="Resources\compare.png" />
-                </StackPanel>
-            </Button>
-            <Button x:Name="Foresee" IsEnabled="False"  >
-                <StackPanel>
-                    <TextBlock Text="Foresee" />
-                    <Image Source="Resources\foresee.png" />
-                </StackPanel>
-            </Button>
-            
-            
-            <Button x:Name="CustomExpression" IsEnabled="False"  >
-                <StackPanel>
-                    <TextBlock Text="Custom Expressions" />
-                    <Image Source="Resources\custom.png" />
-                </StackPanel>
-            </Button>
-
-            <Button x:Name="AttachToProcess"  IsEnabled="False"  >
-                <StackPanel>
-                    <TextBlock Text="QuickAttach" />
-                    <Image Source="Resources\quick_attach.png" />
-                </StackPanel>
-            </Button> -->
-            
-            <!--<Button x:Name="EnhancedTrace" IsEnabled="False" >
+            <Button x:Name="EnhancedTrace" >
                 <StackPanel>
                     <TextBlock Text="Trace" />
                     <Image Source="Resources\trace.png" />
                 </StackPanel>
             </Button>
-            <Button x:Name="SetterBreakpoints"  IsEnabled="False"  >
-                <StackPanel>
-                    <TextBlock Text="Setter Breakpoints"  />
-                    <Image Source="Resources\breakpoint_set.png" />
-                </StackPanel>
-            </Button>
-            <Button x:Name="ExceptionHUD" IsEnabled="False"  >
-                <StackPanel>
-                    <TextBlock Text="Exceptions HUD" />
-                    <Image Source="Resources\debug.png" />
-                </StackPanel>
-            </Button>
-            <Button x:Name="Precognition" IsEnabled="False" >
-                <StackPanel>
-                    <TextBlock Text="Precognition" />
-                    <Image Source="Resources\eye_scan.png" />
-                </StackPanel>
-            </Button>-->
         </UniformGrid>
     </Grid>
 </Window>

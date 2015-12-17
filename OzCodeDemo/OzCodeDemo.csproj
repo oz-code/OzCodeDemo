@@ -64,6 +64,14 @@
     <Compile Include="01.Reveal\RevealDemo.cs" />
     <Compile Include="04.ConditionalBreakpoints\ConditionalBreakpointsDemo.cs" />
     <Compile Include="07.FilterCollections\FilterCollectionsDemo.cs" />
+    <Compile Include="DemoClasses\Events\LogBook.cs" />
+    <Compile Include="DemoClasses\Events\EventLoggedEventArgs.cs" />
+    <Compile Include="DemoClasses\Events\EventProcessor.cs" />
+    <Compile Include="DemoClasses\Events\EventType.cs" />
+    <Compile Include="DemoClasses\Events\LoggingEvent.cs" />
+    <Compile Include="DemoClasses\Events\LoggingEventFactory.cs" />
+    <Compile Include="DemoClasses\Events\SyncQueue.cs" />
+    <Compile Include="08.Trace\TraceDemo.cs" />
     <Compile Include="DemoClasses\Orders\OrderProcessing.cs" />
     <Compile Include="DemoClasses\Orders\BillingService.cs" />
     <Compile Include="DemoClasses\Orders\OrderInfo.cs" />
@@ -134,6 +142,7 @@
     <None Include="05.ExceptionTrail\README.md" />
     <None Include="06.WhenSetBreakDemo\README.md" />
     <None Include="07.FilterCollections\README.md" />
+    <None Include="08.Trace\README.md" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -234,6 +243,9 @@
     <Resource Include="07.FilterCollections\Resources\editFilter.PNG" />
     <Resource Include="07.FilterCollections\Resources\exception.PNG" />
     <Resource Include="07.FilterCollections\Resources\filterCollectionsButton.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="08.Trace\Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
