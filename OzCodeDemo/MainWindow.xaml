@@ -18,7 +18,7 @@
                 <Setter Property="Height" Value="128" />
             </Style>
         </Grid.Resources>
-        <UniformGrid TextElement.FontSize="20" ButtonBase.Click="ButtonClick" Columns="4" Rows="2">
+        <UniformGrid TextElement.FontSize="20" ButtonBase.Click="ButtonClick" Columns="4" Rows="3">
             <UniformGrid.Resources>
                 <Style TargetType="TextBlock">
                     <Setter Property="Margin" Value="0,10" />
@@ -75,6 +75,18 @@
                 <StackPanel>
                     <TextBlock Text="Trace" />
                     <Image Source="Resources\trace.png" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="MagicGlance" >
+                <StackPanel>
+                    <TextBlock Text="Magic Glance" />
+                    <Image Source="Resources\magic-glance.png" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="Predict"   >
+                <StackPanel>
+                    <TextBlock Text="Predict the Future" />
+                    <Image Source="Resources\eye_scan.png" />
                 </StackPanel>
             </Button>
         </UniformGrid>

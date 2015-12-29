@@ -64,6 +64,8 @@
     <Compile Include="01.Reveal\RevealDemo.cs" />
     <Compile Include="04.ConditionalBreakpoints\ConditionalBreakpointsDemo.cs" />
     <Compile Include="07.FilterCollections\FilterCollectionsDemo.cs" />
+    <Compile Include="09.MagicGlance\MagicGlanceDemo.cs" />
+    <Compile Include="10.Predict\Predict.cs" />
     <Compile Include="DemoClasses\Events\LogBook.cs" />
     <Compile Include="DemoClasses\Events\EventLoggedEventArgs.cs" />
     <Compile Include="DemoClasses\Events\EventProcessor.cs" />
@@ -143,6 +145,7 @@
     <None Include="06.WhenSetBreakDemo\README.md" />
     <None Include="07.FilterCollections\README.md" />
     <None Include="08.Trace\README.md" />
+    <None Include="10.Predict\README.md" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -168,7 +171,6 @@
     <Resource Include="Resources\reveal.png" />
     <Resource Include="Resources\Search.png" />
     <Resource Include="Resources\show-instances.png" />
-    <Resource Include="Resources\simplify.png" />
     <Resource Include="Resources\trace.png" />
   </ItemGroup>
   <ItemGroup>
@@ -246,6 +248,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="08.Trace\Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\magic-glance.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
