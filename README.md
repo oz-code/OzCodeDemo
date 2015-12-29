@@ -11,7 +11,7 @@ Each folder contains a demo and an easy to follow script that will explain more 
 5. Find the md file for that feature (below) and follow the instructions.
  
 ## Features documented
-* [Reveal](OzCodeDemo/01.Reveal/README.MD)
+* [Reveal](OzCodeDemo/01.Reveal/README.md)
 * [Search](OzCodeDemo/02.Search/README.md)
 * [Show All Instances](OzCodeDemo/03.ShowAllInstances/README.md)
 * [Conditional Breakpoints](OzCodeDemo/04.ConditionalBreakpoints/README.md)
@@ -19,8 +19,10 @@ Each folder contains a demo and an easy to follow script that will explain more 
 * [When Set... Break](OzCodeDemo/06.WhenSetBreakDemo/README.md)
 * [Filter Collections](OzCodeDemo/07.FilterCollections/README.md)
 * [Trace](OzCodeDemo/08.Trace/README.md)
+* [Magic Glance](OzCodeDemo/09.MagicGlance/README.md)
+* [Predict the Future](OzCodeDemo/10.Predict/README.md)
 
 ## About OzCode
-OzCode was created by CodeValue’s experts, who felt they needed a tool to accelerate and enhance their day-to-day debugging in Visual Studio. Their goal was to design a debugging environment that would be a pleasure to work with.
+OzCode was created because we wanted a tool to accelerate and enhance our day-to-day debugging in Visual Studio. Our goal was to design a debugging environment that would be a pleasure to work with.
 
 [1]: http://www.oz-code.com 

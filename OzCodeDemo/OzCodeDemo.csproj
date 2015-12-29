@@ -145,6 +145,7 @@
     <None Include="06.WhenSetBreakDemo\README.md" />
     <None Include="07.FilterCollections\README.md" />
     <None Include="08.Trace\README.md" />
+    <None Include="09.MagicGlance\README.md" />
     <None Include="10.Predict\README.md" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -248,6 +249,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="08.Trace\Resources\" />
+    <Folder Include="09.MagicGlance\Resources\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\magic-glance.png" />
