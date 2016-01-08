@@ -1,5 +1,5 @@
 ﻿#Exception Trail
-** Effortlessly understand the root cause of a bug by instantly navigating to the **inner-most** InnerException, and drill into the exception's callstack and associated data.**
+**Effortlessly understand the root cause of a bug by instantly navigating to the *inner-most* InnerException, and drill into the exception's callstack and associated data.**
 ##Overview
 Without OzCode, investigating an exception is a dreary task -  navigating through a trail of inner exceptions, scrolling through lengthy callstacks, and squinting through the exception’s associated data to try to make sense of the error. With OzCode, all the relevant information about the exception is presented in a handy tool-window. You can navigate through each inner-exception with a super- convenient breadcrumb control, and even launch a Google or stackoverflow search right from within Visual Studio!
 ##Using Exception Trail
