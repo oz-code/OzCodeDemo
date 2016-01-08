@@ -10,6 +10,7 @@ In order to run this demo click the _Conditional Breakpoins_ button in the demo 
 
 Everything seems ok, no exception was thrown and the run finished succefully!
 Until we get an (imaginary) email or phone call telling us that at least one customer ('Robert Williams') was not approved, and did not get his order...
+
 Since we have no clue why that happend, we add a breakpoint at the begining of the __PaymentValidation.Validate__ method.   
 Running the method for all of the customers is nearly impossible. instead we want to run until we get to 'Robert Williams'.
 * Pass the 'foreach' line and place the caret on the customer.   
