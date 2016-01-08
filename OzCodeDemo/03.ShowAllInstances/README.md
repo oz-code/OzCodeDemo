@@ -17,13 +17,14 @@ Immediatly a message box pops since an exception was thrown:
 
 ![Break on all CLR exceptions](Resources/breakonexceptions.png)  
 Re-run the sample - you should break on _SendInvoice_ call:
+
 ![Exception thrown](Resources/exceptionThrown.PNG)
 
 A quick check should show the problem with this method call --> __customerEmail is null__ which should not happen.
 
 ![Customer is null](Resources/customerIsNull.PNG)
 
-Unfortunalty _InvoiceService_ implementation makes it hard for us to find which _Customer_ caused the problem. And although we can quickly fix this issue by adding a check, we need to find the offending customer.
+Unfortunalty _InvoiceService_ implementation makes it hard for us to find which _Customer_ caused the problem. And although we can quickly fix this issue by adding a check, we still need to find the offending customer!
 Since we only have the _invoiceID_ we can look for it using OzCode's ***Search***.  
 
 Use the watch to view __pendingInvoiceId__ and choose 'Copy Value':
