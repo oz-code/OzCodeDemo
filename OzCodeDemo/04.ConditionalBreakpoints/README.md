@@ -12,15 +12,15 @@ Everything seems ok, no exception was thrown and the run finished succefully!
 Until we get an (imaginary) email or phone call telling us that at least one customer ('Robert Williams') was not approved, and did not get his order...
 
 Since we have no clue why that happend, we add a breakpoint at the begining of the __PaymentValidation.Validate__ method.   
-Running the method for all of the customers is nearly impossible. instead we want to run until we get to 'Robert Williams'.
+Running the method for all of the customers is nearly impossible. Instead, we want to run until we get to 'Robert Williams'.
 * Pass the 'foreach' line and place the caret on the customer.   
-* When the watch window appears, expand customer properties and look for 'FirstName'.
+* When the Watch Window appears, expand customer properties and look for 'FirstName'.
 * Place the caret on the first name property, and 'Custom Actions' (wand) will appear
 * Choose 'Add conditional Breakpoint'
 
 ![Custom actions](Resources/CustomActions.PNG)  
    
-In the new dialog replace the current customer first name with 'Robert'
+In the new dialog, replace the current customer first name with 'Robert'
 
 ![Conditional breakpoint FirstName](Resources/ConditionalBreakPoint1_1.PNG)
 
@@ -37,11 +37,11 @@ And we're ready to go!
  
 Press 'OK' to close the Conditional Breakpoint dialog, and press F5 to continue running until we reach 'Robert Williams'.  
 
-Now if we follow the code execution  (F11), we reach problematic method. It seems someone forgot to add support to Robert's credit card (or a new card was added without support).
+Now if we follow the code execution  (F11), we reach the problematic method. It seems someone forgot to add support for Robert's credit card (or a new card was added without support).
  
  ![Bug found](Resources/problemFound.PNG)
  
- Now we can use a conditional Breakpoint in order to check if there are other unsupported credit cards:
+ Now we can use a conditional breakpoint in order to check if there are other unsupported credit cards:
  - Place your caret on 'CCType' and select 'Add conditional Breakpoint'
  - Update the condtion so that the execution breaks for any other credit card which is not 'Visa' or 'MasterCard'.
  
