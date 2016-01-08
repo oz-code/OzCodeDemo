@@ -8,10 +8,10 @@ In order to run this demo press the _Reveal_ button in the demo application.
 ![Reveal button](Resources/RevealButton.PNG)  
 
 Notice that a breakpoint has been triggered. 
-It seems that although we're in a method that should only be used to send packages outside of the country (US), somehow we got a package that should have been shipped using local shipping method:  
+It seems that although we're in a method that should only be used to send packages outside of the country (US), somehow we got a package that should have been shipped using a local shipping method:  
 
 ![Debug break](Resources/DebuggerBreak.PNG)  
-Because nobody bothered to implement `ToString` on the Customer class, the Head-Up Display (HUD) does, and traversing _Customer_ class can be a pain since it has so many fields. 
+Because nobody bothered to implement `ToString` on the Customer class, initially, the HUD will use the default `ToString` implementation, which just shows the type name, and is not very useful. Further, traversing the _Customer_ class in the DataTip can be a pain, because it contains so many fields. 
 Move the cursor over customer until the watch window appears. Then expand the cutomer fields using the '+'. 
 
 ![RevealCustomerName](Resources/WatchWindow1.png) 
