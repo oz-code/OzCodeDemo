@@ -8,15 +8,15 @@ When debugging objects and collections, you are often looking for a specific pro
 In order to run this demo press the _Search_ button in the demo application.  
 ![Search button](Resources/SearchButton.png)
 
-Immediately A message box pops since an exception was thrown:
+Immediately a message box pops since an exception was thrown:
  
 ![Exception](Resources/exception.png)
 
-Since we want to break execution when the exception is thrown we have two options - either use Visual Studio's built in exception settings dialog, or simply press "Break on all CLR excetions" button:
+Since we want to break execution when the exception is thrown we have two options - either use Visual Studio's built in exception settings dialog, or simply press the "Break on all CLR excetions" button:
 
 ![Break on all CLR exceptions](Resources/breakonexceptions.png)
 
-Run the Search demo again - this time the debugger will break on the line that threw the exception.   
+Run the ***Search*** demo again - this time the debugger will break on the line that threw the exception.   
 Move the cursor to _container_ and wait for the watch window to open. At the bottom of the watch window write "Test" to search for objects/properties with the word "Test" in them.
 
 ![Search for Test](Resources/searchfortest.png)
