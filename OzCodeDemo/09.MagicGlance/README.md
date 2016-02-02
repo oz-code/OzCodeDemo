@@ -19,7 +19,7 @@ There are two things to see here:
 * The returned value is displayed above the last line of the method. 
 * There is a blue glasses icon to the left of the line.
 
-Pressing the "glasses" will show a breakdown of the last line:
+Pressing the _purple glasses_ will show a breakdown of the last line:
 
 ![Return value breakdown](Resources/returnValueBreakdown.PNG)
 
