@@ -64,7 +64,10 @@ namespace OzCodeDemo._10.Predict
 
         private void SendGift(Customer customer)
         {
-            // TODO :)
+            if (customer.Address.City == "Chicago")
+            {
+                SendThankYouLetterInternal(customer.EmailAddress);
+            }
         }
 
         private void SendBill(object customers)
