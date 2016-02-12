@@ -5,6 +5,9 @@
 When debugging objects and collections, you are often looking for a specific property or field, or a value held within a property or field. Unfortunately, this usually involves either a lot of clicking and scrolling, or writing custom debug-specific code. Finding items (even in simple structures) is not easy, not to mention doing so in a complex object graph. With our ***Search*** feature, this is no longer the case. Quickly and effortlessly search member names and values, no matter the size of the collection or complexity of the object graph!
 
 ##Using Search
+
+In this demo, we'll try and figure out a problem that has to do with the Managed Extensibility Framework (or MEF), which is a part of .NET that enables developer to build extensible applications with a plug-in architecture, and behaves a bit like a Dependency Injection container. If you'll notice, our entire OzCode demo application is built on top of MEF!
+
 In order to run this demo press the _Search_ button in the demo application.  
 ![Search button](Resources/SearchButton.png)
 
@@ -12,7 +15,8 @@ Immediately a message box pops since an exception was thrown:
  
 ![Exception](Resources/exception.png)
 
-Oh no! This means that a MEF failured occured, because we mistakingly registered two or more different services under the same interface. And so, when we ask MEF to give us an interface that implements the `ITestComponent` interface, MEF doesn't know which implementation to give us!
+
+Oh no! This means that a MEF failure occured, because we mistakingly registered two or more different services under the same interface. And so, when we ask MEF to give us an interface that implements the `ITestComponent` interface, MEF doesn't know which implementation to give us!
 
 Since we want to break execution when the exception is thrown we have two options - either use Visual Studio's built in exception settings dialog, or simply press the "Break on all CLR excetions" button:
 
