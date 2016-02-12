@@ -12,12 +12,14 @@ Immediately a message box pops since an exception was thrown:
  
 ![Exception](Resources/exception.png)
 
+Oh no! This means that a MEF failured occured, because we mistakingly registered two or more different services under the same interface. And so, when we ask MEF to give us an interface that implements the `ITestComponent` interface, MEF doesn't know which implementation to give us!
+
 Since we want to break execution when the exception is thrown we have two options - either use Visual Studio's built in exception settings dialog, or simply press the "Break on all CLR excetions" button:
 
 ![Break on all CLR exceptions](Resources/breakonexceptions.png)
 
 Run the ***Search*** demo again - this time the debugger will break on the line that threw the exception.   
-Move the cursor to _container_ and wait for the watch window to open. At the bottom of the watch window write "Test" to search for objects/properties with the word "Test" in them.
+Hover over the _container_ variable and the DataTip window will pop-up. Click on the `Search` textbox at the bottom of the DataTip, and write "Test" to search for objects/properties with the word "Test" in them. By default, the Search will look in both the names of the fields and properties, and their respective values as well!
 
 ![Search for Test](Resources/searchfortest.png)
 
@@ -25,7 +27,7 @@ There are two components with very similar names inside _container_, but in orde
 
 ![Search for ITestContainer](Resources/searchforitestcomponent.png)
 
-At first no results show. Press "Search deeper" to reveal the components that are registered under the _ITestComponent_ contract.
+At first no results show. Press "Search deeper" to reveal the components that are registered under the _ITestComponent_ contract. Each time you click "Search Deeper", OzCode will widen the search and look two levels deeper into the object graph.
 
 ![Search deeper](Resources/searchforitestcomponentdeeper.png)
 
