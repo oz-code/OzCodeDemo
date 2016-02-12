@@ -13,7 +13,7 @@ It seems that although we're in a method that should only be used to send packag
 ![Debug break](Resources/DebuggerBreak.PNG)  
 Because nobody bothered to implement `ToString` on the Customer class, initially, the HUD will use the default `ToString` implementation, which just shows the type name, and is not very useful. Further, traversing the _Customer_ class in the DataTip can be a pain, because it contains so many fields.
 
-Move the cursor over customer until the watch window appears. Then expand the cutomer fields using the '+'. 
+Hover your mouse over `customer` for the DataTip window appears. Then expand the cutomer fields using the '+'. 
 
 ![RevealCustomerName](Resources/WatchWindow1.png) 
 
@@ -21,23 +21,23 @@ Lastly find "FullName" and click on the "*star*" next to it:
 
 ![RevealCustomerName](Resources/WatchWindow2.png) 
 
-Notice how the watch window and the HUD updated accordingly:
+Notice how the DataTip window and the HUD updated accordingly:
 
 ![RevealCustomerName](Resources/RevealFullName.png)
   
-Use the stacktrace window to go back to the caller of the method, and the watch window to see how many customers are from *Paris* (including Jose Duke).
-Since they're all instances of _Customer_, the _FullName_ which we've previously stared is shown automatically.
+Use the [Call Stack Window](https://msdn.microsoft.com/en-us/library/a3694ts5.aspx) to go back to the caller of the method, and use the DataTip again to see how many customers are from *Paris* (including Jose Duke).
+Since they're all instances of _Customer_, the _FullName_ which we've previously stared is shown automatically. 
 
 ![Customers from Paris](Resources/customersFromParis.png) 
 
-Let's add some more information to each customer: From the watch window expand one of the customers, then expand the _Address_ propery and star the _Country_, _State_ and _City_ properties.
-Lastly toggle the Star next to _Address_ as well - in order to show _Address_ information as part of _Customer_ (Recusrive Debug Info).
+Let's add some more information on each customer: From the DataTip window - expand one of the customers, then expand the _Address_ propery and star the _Country_, _State_ and _City_ properties.
+Lastly toggle the Star next to _Address_ as well - in order to show _Address_ information as part of _Customer_ (making it much easier to see the nested information!).
 
 ![Add address info](Resources/cutomersWithAddresses.png)
 
-Minimize the customer and look at the customer list: Now we can see all of the selected customers and their addresses. 
+Collapse the current customer and look at the customer list: Now we can see all of the selected customers and their addresses. 
 
-Finding the bug and the effected customers should be simple.
+Finding the bug and the affected customers should be simple.
 
 ![Customers with addresses](Resources/RevealCustomersAndAddresses.png)
 
