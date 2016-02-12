@@ -6,7 +6,7 @@ When debugging objects and collections, you are often looking for a specific pro
 
 ##Using Search
 
-In this demo, we'll try and figure out a problem that has to do with the Managed Extensibility Framework (or MEF), which is a part of .NET that enables developer to build extensible applications with a plug-in architecture, and behaves a bit like a Dependency Injection container. If you'll notice, our entire OzCode demo application is built on top of MEF!
+In this demo, we'll try and figure out a problem that has to do with the Managed Extensibility Framework (or MEF), which is a part of .NET that enables developers to build extensible applications with a plug-in architecture, and behaves a bit like a Dependency Injection container. If you'll notice, our entire OzCode demo application is built on top of MEF!
 
 In order to run this demo press the _Search_ button in the demo application.  
 ![Search button](Resources/SearchButton.png)
