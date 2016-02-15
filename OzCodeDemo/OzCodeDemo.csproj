@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Debugger.Probe">
+      <HintPath>..\..\OzCode\src\Debugger.Probe\bin\Debug\Debugger.Probe.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.ComponentModel.Composition.Registration" />
@@ -66,6 +69,7 @@
     <Compile Include="07.FilterCollections\FilterCollectionsDemo.cs" />
     <Compile Include="09.MagicGlance\MagicGlanceDemo.cs" />
     <Compile Include="10.Predict\Predict.cs" />
+    <Compile Include="11.Linq\LINQDemo.cs" />
     <Compile Include="DemoClasses\Events\LogBook.cs" />
     <Compile Include="DemoClasses\Events\EventLoggedEventArgs.cs" />
     <Compile Include="DemoClasses\Events\EventProcessor.cs" />
@@ -253,6 +257,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\magic-glance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\lambda.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

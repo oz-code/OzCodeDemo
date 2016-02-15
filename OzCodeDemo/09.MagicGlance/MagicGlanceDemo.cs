@@ -59,7 +59,7 @@ namespace OzCodeDemo._09.MagicGlance
 
         private static bool IsElgibileForDiscount(Customer customer)
         {
-            return customer.Birthday.Month < 6;
+            return customer.Birthday.Month > 6;
         }
 
         private static void AddVAT(ref int currentGiftPrice)
