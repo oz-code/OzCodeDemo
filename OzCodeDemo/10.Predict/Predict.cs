@@ -42,20 +42,18 @@ namespace OzCodeDemo._10.Predict
                     default:
                         throw new ArgumentOutOfRangeException();
                 }
-            }          
+            }
+
+
+
+            if (customers.Any(c => c.CCType == "MasterKard") &&
+                customers.All(c => c.FirstName == null))
+            {
+                SendBill(customers);
+            }
+
         }
 
-        private void SendThankYouLetter(Customer customer)
-        {
-            if (customer.EmailAddress.Length > MaxEmailLength)
-            {
-                SendThankYouLetterInternal(customer.EmailAddress);
-            }
-            else
-            {
-                Debug.Write("Email address too long!");
-            }
-        }
 
         private void SendThankYouLetterInternal(string email)
         {
@@ -75,6 +73,34 @@ namespace OzCodeDemo._10.Predict
             // TODO :)
         }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        private void SendThankYouLetter(Customer customer)
+        {
+            //if (customer.EmailAddress.Length > MaxEmailLength)
+            //{
+            //    SendThankYouLetterInternal(customer.EmailAddress);
+            //}
+            //else
+            //{
+            //    Debug.Write("Email address too long!");
+            //}
+        }
         private static List<Customer> LoadCustomersFromDb()
         {
             var customers = CustomersRepository.LoadCustomersFromDb();

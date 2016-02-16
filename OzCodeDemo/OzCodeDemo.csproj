@@ -36,7 +36,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Debugger.Probe">
-      <HintPath>..\..\OzCode\src\Debugger.Probe\bin\Debug\Debugger.Probe.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Debugger.Probe.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
