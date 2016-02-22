@@ -66,6 +66,7 @@
     <Compile Include="07.FilterCollections\FilterCollectionsDemo.cs" />
     <Compile Include="09.MagicGlance\MagicGlanceDemo.cs" />
     <Compile Include="10.Predict\Predict.cs" />
+    <Compile Include="11.CustomExpressions\CustomExpressionsDemo.cs" />
     <Compile Include="DemoClasses\Events\LogBook.cs" />
     <Compile Include="DemoClasses\Events\EventLoggedEventArgs.cs" />
     <Compile Include="DemoClasses\Events\EventProcessor.cs" />
@@ -147,6 +148,7 @@
     <None Include="08.Trace\README.md" />
     <None Include="09.MagicGlance\README.md" />
     <None Include="10.Predict\README.md" />
+    <None Include="11.CustomExpressions\README.md" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -253,6 +255,26 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\magic-glance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="10.Predict\Resources\exceptionPrediction.PNG" />
+    <Resource Include="10.Predict\Resources\firstBreakpoint.PNG" />
+    <Resource Include="10.Predict\Resources\predictButton.PNG" />
+    <Resource Include="10.Predict\Resources\predictIfStatements.PNG" />
+    <Resource Include="10.Predict\Resources\secondBreakpoint.PNG" />
+    <Resource Include="10.Predict\Resources\secondBugFixed.PNG" />
+    <Resource Include="10.Predict\Resources\stopAtFirstBreakpoint.PNG" />
+    <Resource Include="10.Predict\Resources\stopAtFirstBreakpoint2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="11.CustomExpressions\Resources\addDaysTillBirthday.PNG" />
+    <Resource Include="11.CustomExpressions\Resources\customExpressionsButton.PNG" />
+    <Resource Include="11.CustomExpressions\Resources\customExpressionsReveal.PNG" />
+    <Resource Include="11.CustomExpressions\Resources\daysTillBirthday.PNG" />
+    <Resource Include="11.CustomExpressions\Resources\firstBreakpoint.PNG" />
+    <Resource Include="11.CustomExpressions\Resources\fullNameCE.PNG" />
+    <Resource Include="11.CustomExpressions\Resources\usingMagicWand.PNG" />
+    <Resource Include="11.CustomExpressions\Resources\wrongCustomer.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

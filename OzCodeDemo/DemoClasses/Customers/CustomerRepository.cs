@@ -120,7 +120,7 @@ namespace OzCodeDemo.DemoClasses.Customers
                     EmailAddress = "BenECribbs@pookmail.com",
                     TelephoneNumber = "817-677-2247",
                     MothersMaiden = "Prestridge",
-                    Birthday = Convert.ToDateTime("5-Dec-73"),
+                    Birthday = Convert.ToDateTime("29-Feb-72"),
                     CCType = "MasterCard",
                     CCNumber = "5584926016076430",
                     CVV2 = "608",
@@ -968,9 +968,8 @@ namespace OzCodeDemo.DemoClasses.Customers
                     Centimeters = "183",
                 },
             };
-          
+
             return customers;
         }
     }
-
 }

@@ -89,6 +89,12 @@
                     <Image Source="Resources\eye_scan.png" />
                 </StackPanel>
             </Button>
+            <Button x:Name="CustomExpressions">
+                <StackPanel>
+                    <TextBlock Text="Custom Expressions" />
+                    <Image Source="Resources\custom.png" />
+                </StackPanel>
+            </Button>
         </UniformGrid>
     </Grid>
 </Window>
