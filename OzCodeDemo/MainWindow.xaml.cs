@@ -19,7 +19,6 @@ namespace OzCodeDemo
 
         public MainWindow()
         {
-            var name = typeof(P_F_A.FlowTracer).Name;
             InitializeComponent();
 
             var catalog = new AggregateCatalog();
