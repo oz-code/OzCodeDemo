@@ -67,6 +67,10 @@
     <Compile Include="09.MagicGlance\MagicGlanceDemo.cs" />
     <Compile Include="10.Predict\Predict.cs" />
     <Compile Include="11.Linq\LINQDemo.cs" />
+    <Compile Include="11.Linq\LINQDemo2.cs" />
+    <Compile Include="DemoClasses\ClassManagment\Department.cs" />
+    <Compile Include="DemoClasses\ClassManagment\Student.cs" />
+    <Compile Include="DemoClasses\ClassManagment\StudentRepository.cs" />
     <Compile Include="DemoClasses\Events\LogBook.cs" />
     <Compile Include="DemoClasses\Events\EventLoggedEventArgs.cs" />
     <Compile Include="DemoClasses\Events\EventProcessor.cs" />

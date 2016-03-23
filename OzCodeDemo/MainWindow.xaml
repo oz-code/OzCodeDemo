@@ -95,6 +95,12 @@
                     <Image Source="Resources\lambda.png" />
                 </StackPanel>
             </Button>
+            <Button x:Name="LINQ2"   >
+                <StackPanel>
+                    <TextBlock Text="LINQ II" />
+                    <Image Source="Resources\lambda.png" />
+                </StackPanel>
+            </Button>
         </UniformGrid>
     </Grid>
 </Window>
