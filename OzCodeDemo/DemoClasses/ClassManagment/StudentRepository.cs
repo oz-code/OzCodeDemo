@@ -8,7 +8,7 @@ namespace OzCodeDemo.ClassManagment
 {
     static class StudentRepository
     {
-        public static IEnumerable<Department> GetAllStudents()
+        public static IEnumerable<Department> GetAllDepartments()
         {
             return new[]
             {

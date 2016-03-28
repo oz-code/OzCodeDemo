@@ -14,7 +14,7 @@ namespace OzCodeDemo._11.Linq
     {
         public void Start()
         {
-            var allStudents = StudentRepository.GetAllStudents()
+            var allStudents = StudentRepository.GetAllDepartments()
                                                 .SelectMany(d => d.Students);
 
             var averageGrade = allStudents.Average(s => s.Grade);
