@@ -35,6 +35,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.ComponentModel.Composition.Registration" />
@@ -67,6 +71,9 @@
     <Compile Include="09.MagicGlance\MagicGlanceDemo.cs" />
     <Compile Include="10.Predict\Predict.cs" />
     <Compile Include="11.CustomExpressions\CustomExpressionsDemo.cs" />
+    <Compile Include="12.Compare\CompareInstances.cs" />
+    <Compile Include="12.Compare\CompareItemsInCollectionDemo.cs" />
+    <Compile Include="13.Export\ExportDemo.cs" />
     <Compile Include="DemoClasses\Events\LogBook.cs" />
     <Compile Include="DemoClasses\Events\EventLoggedEventArgs.cs" />
     <Compile Include="DemoClasses\Events\EventProcessor.cs" />
@@ -75,6 +82,9 @@
     <Compile Include="DemoClasses\Events\LoggingEventFactory.cs" />
     <Compile Include="DemoClasses\Events\SyncQueue.cs" />
     <Compile Include="08.Trace\TraceDemo.cs" />
+    <Compile Include="DemoClasses\Extensions\Xml.cs" />
+    <Compile Include="DemoClasses\IoT\Data.cs" />
+    <Compile Include="DemoClasses\IoT\Sensor.cs" />
     <Compile Include="DemoClasses\Orders\OrderProcessing.cs" />
     <Compile Include="DemoClasses\Orders\BillingService.cs" />
     <Compile Include="DemoClasses\Orders\OrderInfo.cs" />
@@ -105,6 +115,10 @@
     <Compile Include="DemoClasses\PaymentValidation.cs" />
     <Compile Include="DemoClasses\Person.cs" />
     <Compile Include="DemoClasses\PhoneBook.cs" />
+    <Compile Include="DemoClasses\StackOverflow\Client.cs" />
+    <Compile Include="DemoClasses\StackOverflow\Item.cs" />
+    <Compile Include="DemoClasses\StackOverflow\Owner.cs" />
+    <Compile Include="DemoClasses\StackOverflow\Rootobject.cs" />
     <Compile Include="DemoClasses\TestComponent.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
@@ -149,6 +163,8 @@
     <None Include="09.MagicGlance\README.md" />
     <None Include="10.Predict\README.md" />
     <None Include="11.CustomExpressions\README.md" />
+    <EmbeddedResource Include="json\SO_Featured.json" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

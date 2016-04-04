@@ -39,7 +39,7 @@ namespace OzCodeDemo.DemoClasses
             return !Equals(left, right);
         }
 
-        private readonly List<Person> _book = new List<Person>();
+        private List<Person> _book = new List<Person>();
         public void AddPerson(Person p)
         {
             _book.Add(p);
@@ -71,9 +71,10 @@ namespace OzCodeDemo.DemoClasses
             return phoneBook;
         }
 
-        public IList<Person> Persons
+        public List<Person> Persons
         {
             get { return _book; }
+            set { _book = value; }
         }
     }
 
