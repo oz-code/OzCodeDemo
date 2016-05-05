@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
 using System.Xml.Serialization;
 using OzCodeDemo.DemoClasses.Customers;
@@ -13,7 +14,7 @@ namespace OzCodeDemo.DemoClasses
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-        [NonSerialized]
+        [NonSerialized, DebuggerBrowsable(DebuggerBrowsableState.Never)]
         private int _age;
 
         public int Age
@@ -58,11 +59,11 @@ namespace OzCodeDemo.DemoClasses
                 return hashCode;
             }
         }
-
+/*
         [XmlIgnore]
         public string RawInfo
         {
             get { return this.SerializeObject(); }
-        }
+        }*/
     }
 }
