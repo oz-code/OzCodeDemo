@@ -16,9 +16,9 @@ Immediately a message box pops since an exception was thrown:
 ![Exception](Resources/exception.png)
 
 
-Oh no! This means that a MEF failure occured, because we mistakingly registered two or more different services under the same interface. And so, when we ask MEF to give us an interface that implements the `ITestComponent` interface, MEF doesn't know which implementation to give us!
+Oh no! This means that a MEF failure occurred, because we mistakenly registered two or more different services under the same interface. And so, when we ask MEF to give us an interface that implements the `ITestComponent` interface, MEF doesn't know which implementation to give us!
 
-Since we want to break execution when the exception is thrown we have two options - either use Visual Studio's built in exception settings dialog, or simply press the "Break on all CLR excetions" button:
+Since we want to break execution when the exception is thrown we have two options - either use Visual Studio's built-in exception settings dialog, or simply press the "Break on all CLR excetions" button:
 
 ![Break on all CLR exceptions](Resources/breakonexceptions.png)
 

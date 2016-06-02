@@ -10,12 +10,12 @@ In order to run this demo click the _Predict_ button in the demo application.
 ![Predict button](Resources/predictButton.PNG)
 
 You should stop at the beginning of a method.  
-Place a breakpoint at the line of the __switch statment__ and continue the debug run (F5).
+Place a breakpoint at the line of the __switch statement__ and continue the debug run (F5).
 
 ![First breakpoint](Resources/firstBreakpoint.PNG)
 
 Once you reach the breakpoint you may notice a few things:
-The case that will be taken is the only one __not grayed out__ (_Gender.Female_), and there's an arrow pointing to the begning of that case.
+The case that will be taken is the only one __not grayed out__ (_Gender.Female_), and there's an arrow pointing to the beginning of that case.
 
 ![Stopping at the first breakpoint](Resources/stopAtFirstBreakpoint.PNG)
 
@@ -24,17 +24,17 @@ Continue running - the next time the debugger stops at the breakpoint, the graye
 ![Stopping at the first breakpoint](Resources/stopAtFirstBreakpoint2.PNG)
 
 Press F10 to move to the next instruction, and the _if_ clause should light up.
-The red represents conditions that failed, while the passed (_true_) condtions are marked in green. All of this is analyzed before the code runs.
+The red represents conditions that failed, while the passing (_true_) conditions are marked in green. All of this is analyzed before the code runs.
 
 ![Predict if statments](Resources/predictIfStatements.PNG)
 
-Since the total result of the four conditions is _true_, a green 'V' appears near the _if_ and a yellow arrow appears near the begining of the clause body.  
+Since the total result of the four conditions is _true_, a green 'V' appears near the _if_ and a yellow arrow appears near the beginning of the clause body.  
 
-Now add a breakpoint at the begining of __SendThankYouLetter(Customer customer)__
+Now add a breakpoint at the beginning of __SendThankYouLetter(Customer customer)__
 
 ![Second breakpoint](Resources/secondBreakpoint.PNG)
 
-And Run until you stop at the begining of the method - can you spot the bug?
+And Run until you stop at the beginning of the method - can you spot the bug?
 
 If you're using VS2015 you'll be able to use _Edit & Continue_ and replace the '>' with '<='. 
 

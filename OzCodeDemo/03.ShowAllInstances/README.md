@@ -44,7 +44,7 @@ Using the little 'eye' we can expand the selected customer to see all of the ins
 
 ![Expend customer](Resources/viewWholeCustomer.PNG)
 
-Finally we can see that that customer was loaded without an _emailAdress_ which means that we might have a data curruption problem on our hands.
+Finally we can see that that customer was loaded without an _emailAdress_ which means that we might have a data corruption problem on our hands.
 
 ![No email](Resources/emailIsNullInCustomer.PNG)
 

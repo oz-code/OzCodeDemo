@@ -30,7 +30,7 @@ Since they're all instances of _Customer_, the _FullName_ which we've previously
 
 ![Customers from Paris](Resources/customersFromParis.png) 
 
-Let's add some more information on each customer: From the DataTip window - expand one of the customers, then expand the _Address_ propery and star the _Country_, _State_ and _City_ properties.
+Let's add some more information on each customer: From the DataTip window - expand one of the customers, then expand the _Address_ property and star the _Country_, _State_ and _City_ properties.
 Lastly toggle the Star next to _Address_ as well - in order to show _Address_ information as part of _Customer_ (making it much easier to see the nested information!).
 
 ![Add address info](Resources/cutomersWithAddresses.png)

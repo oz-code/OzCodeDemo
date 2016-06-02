@@ -17,11 +17,11 @@ In order to run this demo click the _Filter Collections_ button in the demo appl
 
 A message box with an exception will appear. 
 
-Close the message box and use the "Break on all CLR excetions" button to stop once an exception is thrown.
+Close the message box and use the "Break on all CLR exceptions" button to stop once an exception is thrown.
 
 ![Break on all CLR exceptions](Resources/breakonexceptions.png)
 
-Run the demo again. This time you should stop at the following method. Now it's easy to understand why the exception was thrown - we only have one eligable customer:
+Run the demo again. This time you should stop at the following method. Now it's easy to understand why the exception was thrown - we only have one eligible customer:
 
 ![Exception origin](Resources/exception.PNG)
 
