@@ -67,6 +67,7 @@
     <Compile Include="09.MagicGlance\MagicGlanceDemo.cs" />
     <Compile Include="10.Predict\Predict.cs" />
     <Compile Include="11.CustomExpressions\CustomExpressionsDemo.cs" />
+    <Compile Include="12.LINQ\LinqDemo.cs" />
     <Compile Include="DemoClasses\Events\LogBook.cs" />
     <Compile Include="DemoClasses\Events\EventLoggedEventArgs.cs" />
     <Compile Include="DemoClasses\Events\EventProcessor.cs" />
@@ -149,6 +150,7 @@
     <None Include="09.MagicGlance\README.md" />
     <None Include="10.Predict\README.md" />
     <None Include="11.CustomExpressions\README.md" />
+    <None Include="12.LINQ\README.md" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -275,6 +277,12 @@
     <Resource Include="11.CustomExpressions\Resources\fullNameCE.PNG" />
     <Resource Include="11.CustomExpressions\Resources\usingMagicWand.PNG" />
     <Resource Include="11.CustomExpressions\Resources\wrongCustomer.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\lambda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="12.LINQ\Resources\beta-05.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
