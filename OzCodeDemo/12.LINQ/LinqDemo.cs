@@ -17,8 +17,9 @@ namespace OzCodeDemo._12.LINQ
                         (Repeat until NO MORE BUGS)";
 
             var mostFrequentWord = text
-                .Split(' ', '.', ',')
+                .Split(' ', '.', ',', ')')
                 .Where(i => i != "")
+                .Select(s => s.ToLower())
                 .GroupBy(i => i)
                 .OrderBy(i => i.Count())
                 .Last();
