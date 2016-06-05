@@ -5,7 +5,7 @@
 > Only Visual Studio 2015 supported
 
 **When using LINQ a developer is forced to use tricks to find out what was the value of a specific step in one or more iterations. In some cases even completely re-writing the same code as imperative loops just to be able to check what went wrong.  
-OzCode adds the tools that help understand what the query does - at a glance and if needed deep dive into the data passed between the various LINQ operators.**
+OzCode adds the tools that help understand what the query does - at a glance and if needed dive deep into the data passed between the various LINQ operators.**
 
 ## Overview   
 In this demo a sentence is split into words and grouped so that we can return the word that appears the most.  
