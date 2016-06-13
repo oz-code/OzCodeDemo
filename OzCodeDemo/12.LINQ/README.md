@@ -1,6 +1,6 @@
 ﻿# LINQ Debugging
 
-![Download OzCode Beta](beta-05.png)  
+![Download OzCode Beta](Resources/beta-05.png)  
 > *This feature is currently in preview*  
 > Only Visual Studio 2015 supported
 
