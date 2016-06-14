@@ -1,5 +1,8 @@
-﻿using System.ComponentModel.Composition;
+﻿using System.Collections.Generic;
+using System.ComponentModel.Composition;
 using System.Diagnostics;
+using System.Linq;
+using System.Windows;
 using OzCodeDemo.DemoClasses.StackOverflow;
 
 namespace OzCodeDemo._13.Export
@@ -14,13 +17,18 @@ namespace OzCodeDemo._13.Export
 
             Debugger.Break();
 
-            FindRelevantQuestionsAndAnswer(featuredQuestions);
-        }
+            var analyzer = new QuestionsAnalyzer(featuredQuestions);
 
-        private void FindRelevantQuestionsAndAnswer(Rootobject featuredQuestions)
-        {
+            var mostUsedTag = analyzer.GetMostUsedTag();
 
+            MessageBox.Show("The most used tag is: " + mostUsedTag);
+
+            if (analyzer.HasQuestionsWithTag("c#"))
+            {
+                var questionList = analyzer.FindRelevantQuestionsToAnswer("c#");
+
+                MessageBox.Show("Selected questions: " + string.Join("\n",questionList.ToArray() ));
+            }
         }
     }
-
 }

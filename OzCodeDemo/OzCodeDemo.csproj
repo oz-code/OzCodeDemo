@@ -118,6 +118,7 @@
     <Compile Include="DemoClasses\StackOverflow\Client.cs" />
     <Compile Include="DemoClasses\StackOverflow\Item.cs" />
     <Compile Include="DemoClasses\StackOverflow\Owner.cs" />
+    <Compile Include="DemoClasses\StackOverflow\QuestionsAnalyzer.cs" />
     <Compile Include="DemoClasses\StackOverflow\Rootobject.cs" />
     <Compile Include="DemoClasses\TestComponent.cs" />
     <Compile Include="App.xaml.cs">
