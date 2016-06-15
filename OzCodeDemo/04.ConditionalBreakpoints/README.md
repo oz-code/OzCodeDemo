@@ -8,10 +8,10 @@ In order to run this demo click the _Conditional Breakpoins_ button in the demo 
 
 ![Conditional breakpoints button](Resources/ConditionalBreakpointsButton.PNG)
 
-Everything seems ok, no exception was thrown and the run finished succefully!
+Everything seems ok, no exception was thrown and the run finished successfully!
 Until we get an (imaginary) email or phone call telling us that at least one customer ('Robert Williams') was not approved, and did not get his order...
 
-Since we have no clue why that happend, we add a breakpoint at the begining of the __PaymentValidation.Validate__ method.   
+Since we have no clue why that happened, we add a breakpoint at the beginning of the __PaymentValidation.Validate__ method.   
 Running the method for all of the customers is nearly impossible. Instead, we want to run until we get to 'Robert Williams'.
 * Pass the 'foreach' line and place the caret on the customer.   
 * When the Watch Window appears, expand customer properties and look for 'FirstName'.
@@ -24,7 +24,7 @@ In the new dialog, replace the current customer first name with 'Robert'
 
 ![Conditional breakpoint FirstName](Resources/ConditionalBreakPoint1_1.PNG)
 
-To make sure that we do not accidetly break on the wrong customer we want to add the customer surname as well ('Williams').  
+To make sure that we do not accidentally break on the wrong customer we want to add the customer surname as well ('Williams').  
 There are two ways to achieve this: 
 - Add '&&', copy the existing text, and replace 'Robert' with 'Williams' 'FirstName' with 'SurName' (or any other property - OzCode supports code completion).
 - Use OzCode's watch window: open watch, find 'SurName' and press the little '+' sign.

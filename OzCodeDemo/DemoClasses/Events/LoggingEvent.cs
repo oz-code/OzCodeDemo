@@ -10,7 +10,7 @@ namespace OzCodeDemo.DemoClasses.Events
         }
 
         public int Id { get; set; }
-        public DateTime CreationDate { get; }
+        public DateTime CreationDate { get; set; }
         public EventType EventType { get; set; }
     }
 }

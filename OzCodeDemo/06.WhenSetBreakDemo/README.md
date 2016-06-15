@@ -7,7 +7,7 @@ In order to run this demo click the _When Set... Break_ button in the demo appli
 
 ![When Break.. Set button button](Resources/whenBreakSet.PNG)
 
-After the run has finished, a log message will show. Going over the log messages, you can notice a problem: it seems that certain customers were mistakingly billed for other people's orders (invoices sent). Ouch!
+After the run has finished, a log message will show. Going over the log messages, you can notice a problem: it seems that certain customers were mistakenly billed for other people's orders (invoices sent). Ouch!
 
 ![Logging](Resources/logging.PNG)
 

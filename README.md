@@ -22,6 +22,7 @@ Each folder contains a demo and an easy to follow script that will explain more 
 * [Magic Glance](OzCodeDemo/09.MagicGlance/README.md)
 * [Predict the Future](OzCodeDemo/10.Predict/README.md)
 * [Custom Expressions](OzCodeDemo/11.CustomExpressions/README.md)
+* [LINQ Debugging](OzCodeDemo/12.LINQ/README.md)
 
 ## About OzCode
 OzCode was created because we wanted a tool to accelerate and enhance our day-to-day debugging in Visual Studio. Our goal was to design a debugging environment that would be a pleasure to work with.

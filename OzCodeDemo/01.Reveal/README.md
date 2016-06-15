@@ -2,7 +2,7 @@
 **Focus on data that actually matters**   
 
 ##Overview
-Objects can have many properties, but when debugging, not all of them are useful to you. You’re usually interested only in a select few. For a Customer class, it might be the ID and FullName properties. For a Point in 3D space, it might be the X, Y, and Z fields. With OzCode's ***Reveal*** feature, you can finally focus on the data that actually matters. 
+Objects can have many properties, but when debugging, not all of them are useful to you. You’re usually interested only in a select few. For a Customer class, it might be the ID and FirstName properties. For a Point in 3D space, it might be the X, Y, and Z fields. With OzCode's ***Reveal*** feature, you can finally focus on the data that actually matters. 
 ##Using Reveal
 In order to run this demo press the _Reveal_ button in the demo application.  
 ![Reveal button](Resources/RevealButton.PNG)  
@@ -17,7 +17,7 @@ Hover your mouse over `customer` for the DataTip window appears. Then expand the
 
 ![RevealCustomerName](Resources/WatchWindow1.png) 
 
-Lastly find "FullName" and click on the "*star*" next to it:   
+Lastly find "FirstName" and click on the "*star*" next to it:   
 
 ![RevealCustomerName](Resources/WatchWindow2.png) 
 
@@ -25,12 +25,14 @@ Notice how the DataTip window and the HUD updated accordingly:
 
 ![RevealCustomerName](Resources/RevealFullName.png)
   
-Use the [Call Stack Window](https://msdn.microsoft.com/en-us/library/a3694ts5.aspx) to go back to the caller of the method, and use the DataTip again to see how many customers are from *Paris* (including Jose Duke).
-Since they're all instances of _Customer_, the _FullName_ which we've previously stared is shown automatically. 
+Add similarly use the *star* to add the "SurName" property as well.  
+
+Now use the [Call Stack Window](https://msdn.microsoft.com/en-us/library/a3694ts5.aspx) to go back to the caller of the method, and use the DataTip again to see how many customers are from *Paris* (including Jose Duke).
+Since they're all instances of _Customer_, the _FirstName_ which we've previously stared is shown automatically. 
 
 ![Customers from Paris](Resources/customersFromParis.png) 
 
-Let's add some more information on each customer: From the DataTip window - expand one of the customers, then expand the _Address_ propery and star the _Country_, _State_ and _City_ properties.
+Let's add some more information on each customer: From the DataTip window - expand one of the customers, then expand the _Address_ property and star the _Country_, _State_ and _City_ properties.
 Lastly toggle the Star next to _Address_ as well - in order to show _Address_ information as part of _Customer_ (making it much easier to see the nested information!).
 
 ![Add address info](Resources/cutomersWithAddresses.png)

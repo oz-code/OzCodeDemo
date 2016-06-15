@@ -10,7 +10,7 @@ In order to run this demo click the _Magic Glance_ button in the demo applicatio
 
 ![Magic Glance button](Resources/magicGlanceButton.PNG)
 
-Once you stop at the begining of the method add another breakpoint at the end of the method, and press _F5_ to continue execution.
+Once you stop at the beginning of the method add another breakpoint at the end of the method, and press _F5_ to continue execution.
 After stopping at the breakpoint press F10 (_Step Over_) - you should see the following on your screen:
 
 ![Return value](Resources/returnValue.PNG)
@@ -31,7 +31,7 @@ Notice how a pair of glasses appear near each line you pass? This is OzCode savi
 
 ![Line by line debug](Resources/lineByLineDebug.PNG)
 
-As you pass each line, the current values appear above the variables. _Boolean_ clauses are marked in green or red (true/false) and condtional paths are marked according to the execution.
+As you pass each line, the current values appear above the variables. _Boolean_ clauses are marked in green or red (true/false) and conditional paths are marked according to the execution.
 
 Reach the last line. There are a few things you can do to analyze the last execution:
 

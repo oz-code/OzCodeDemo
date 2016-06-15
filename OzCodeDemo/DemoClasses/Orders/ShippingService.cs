@@ -37,7 +37,7 @@ namespace OzCodeDemo.DemoClasses.Orders
             }
             catch (IllegalOrderException exc)
             {
-                await NotifyCustomerOfDelay(customer, order);
+                NotifyCustomerOfDelay(customer, order).Wait();
 
                 throw new OrderProcessingException("Failed to deliver order " + order.ID, exc);
             }
