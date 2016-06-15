@@ -31,7 +31,7 @@ namespace OzCodeDemo.DemoClasses.StackOverflow
                 .Any(tag => tag == tagName);
         }
 
-        public IEnumerable<string> FindRelevantQuestionsToAnswer(string tagName)
+        public IEnumerable<string> FindQuestionsByTag(string tagName)
         {
             return _questions.items
                 .Where(item => item.tags.Contains(tagName))

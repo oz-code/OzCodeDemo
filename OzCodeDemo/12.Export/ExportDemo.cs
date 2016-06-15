@@ -1,11 +1,10 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.Composition;
+﻿using System.ComponentModel.Composition;
 using System.Diagnostics;
 using System.Linq;
 using System.Windows;
 using OzCodeDemo.DemoClasses.StackOverflow;
 
-namespace OzCodeDemo._13.Export
+namespace OzCodeDemo._12.Export
 {
     [Export(typeof (IOzCodeDemo))]
     [ExportMetadata("Demo", "Export")]
@@ -18,14 +17,14 @@ namespace OzCodeDemo._13.Export
             Debugger.Break();
 
             var analyzer = new QuestionsAnalyzer(featuredQuestions);
-
+            
             var mostUsedTag = analyzer.GetMostUsedTag();
 
             MessageBox.Show("The most used tag is: " + mostUsedTag);
 
             if (analyzer.HasQuestionsWithTag("c#"))
             {
-                var questionList = analyzer.FindRelevantQuestionsToAnswer("c#");
+                var questionList = analyzer.FindQuestionsByTag("c#");
 
                 MessageBox.Show("Selected questions: " + string.Join("\n",questionList.ToArray() ));
             }

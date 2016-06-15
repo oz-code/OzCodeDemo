@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Linq;
 
-namespace OzCodeDemo._12.LINQ
+namespace OzCodeDemo._13.LINQ
 {
     [Export(typeof(IOzCodeDemo))]
     [ExportMetadata("Demo", "Linq")]

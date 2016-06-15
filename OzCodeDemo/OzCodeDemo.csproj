@@ -71,10 +71,8 @@
     <Compile Include="09.MagicGlance\MagicGlanceDemo.cs" />
     <Compile Include="10.Predict\Predict.cs" />
     <Compile Include="11.CustomExpressions\CustomExpressionsDemo.cs" />
-    <Compile Include="12.Compare\CompareInstances.cs" />
-    <Compile Include="12.Compare\CompareItemsInCollectionDemo.cs" />
-    <Compile Include="13.Export\ExportDemo.cs" />
-    <Compile Include="14.LINQ\LinqDemo.cs" />
+    <Compile Include="12.Export\ExportDemo.cs" />
+    <Compile Include="13.LINQ\LinqDemo.cs" />
     <Compile Include="DemoClasses\Events\LogBook.cs" />
     <Compile Include="DemoClasses\Events\EventLoggedEventArgs.cs" />
     <Compile Include="DemoClasses\Events\EventProcessor.cs" />
@@ -166,8 +164,9 @@
     <None Include="10.Predict\README.md" />
     <None Include="11.CustomExpressions\README.md" />
     <EmbeddedResource Include="json\SO_Featured.json" />
+    <None Include="12.Export\README.md" />
     <None Include="packages.config" />
-    <None Include="14.LINQ\README.md" />
+    <None Include="13.LINQ\README.md" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -299,7 +298,7 @@
     <Resource Include="Resources\lambda.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="14.LINQ\Resources\beta-05.png" />
+    <Resource Include="13.LINQ\Resources\beta-05.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
