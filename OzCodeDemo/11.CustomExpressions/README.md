@@ -10,7 +10,7 @@ For example, if a Customer class has a salary history among its properties, but 
 
 ## Using Custom Expressions
 
-In order to run this demo click the _Predict_ button in the demo application. 
+In order to run this demo click the _Custom Expressions_ button in the demo application. 
 
 ![CustomEpressions Button](Resources/customExpressionsButton.PNG)
 
