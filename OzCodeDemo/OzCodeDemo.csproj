@@ -74,7 +74,7 @@
     <Compile Include="12.Compare\CompareInstances.cs" />
     <Compile Include="12.Compare\CompareItemsInCollectionDemo.cs" />
     <Compile Include="13.Export\ExportDemo.cs" />
-    <Compile Include="12.LINQ\LinqDemo.cs" />
+    <Compile Include="14.LINQ\LinqDemo.cs" />
     <Compile Include="DemoClasses\Events\LogBook.cs" />
     <Compile Include="DemoClasses\Events\EventLoggedEventArgs.cs" />
     <Compile Include="DemoClasses\Events\EventProcessor.cs" />
@@ -167,7 +167,7 @@
     <None Include="11.CustomExpressions\README.md" />
     <EmbeddedResource Include="json\SO_Featured.json" />
     <None Include="packages.config" />
-    <None Include="12.LINQ\README.md" />
+    <None Include="14.LINQ\README.md" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -299,7 +299,7 @@
     <Resource Include="Resources\lambda.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="12.LINQ\Resources\beta-05.png" />
+    <Resource Include="14.LINQ\Resources\beta-05.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
