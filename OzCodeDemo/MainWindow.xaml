@@ -95,21 +95,10 @@
                     <Image Source="Resources\custom.png" />
                 </StackPanel>
             </Button>
-            <Button x:Name="CompareInstances">
-                <StackPanel>
-                    <TextBlock Text="Compare instances" />
-                    <Image Source="Resources\compare.png" />
-                </StackPanel>
-            </Button>
-            <Button x:Name="CompareItemsInCollection">
-                <StackPanel>
-                    <TextBlock Text="Compare items" />
-                    <Image Source="Resources\compare.png" />
-                </StackPanel>
-            </Button>
             <Button x:Name="Export">
                 <StackPanel>
                     <TextBlock Text="Export" />
+                    <Image Source="Resources\export.png" />
                 </StackPanel>
             </Button>
             <Button x:Name="Linq"   >
