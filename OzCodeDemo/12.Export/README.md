@@ -7,14 +7,14 @@
 
 ## Overview
 
-In this demo we will use *Export* during debugging to copy serialize an instance and use it in related unit tests.
+In this demo we will use *Export* during debugging to serialize an instance and use it in related unit tests.
 
 ## Using Export
 
 In order to run this demo press the _Export_ button in the demo application.  
 ![Export button](Resources/ExportButton.PNG)  
 
-The cursor would stop on a breakpoint after the data has returned from a client.
+The cursor would stop on a breakpoint in the line after the data has returned from a client.
 Hover over *featuredQuestions* until the quick watch window appears. Then select the magic wand and choose **Export** from the context menu.
 
 ![Choosing Export](Resources/chooseExport.PNG) 
