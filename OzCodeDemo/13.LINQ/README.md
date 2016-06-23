@@ -1,6 +1,6 @@
 ﻿# LINQ Debugging
 
-![Download OzCode Beta](Resources/beta-05.png)  
+[![Download OzCode Beta][2]](http://o.oz-code.com/LINQ_EAP)
 > *This feature is currently in preview*  
 > Only Visual Studio 2015 supported
 
@@ -65,3 +65,5 @@ Now that you know what the problem is - fix it and verify that the query finally
 ![Fixed](Resources/fixed.PNG)
 
 [Back to Main](../../README.md) 
+
+[2]: Resources/beta-05.png
