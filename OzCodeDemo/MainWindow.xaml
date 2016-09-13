@@ -101,9 +101,15 @@
                     <Image Source="Resources\export.png" />
                 </StackPanel>
             </Button>
-            <Button x:Name="Linq"   >
+            <Button x:Name="FluentSyntaxLinq"   >
                 <StackPanel>
-                    <TextBlock Text="LINQ" />
+                    <TextBlock Text="Fluent LINQ" />
+                    <Image Source="Resources\lambda.png" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="QuerySyntaxLinq"   >
+                <StackPanel>
+                    <TextBlock Text="Query LINQ" />
                     <Image Source="Resources\lambda.png" />
                 </StackPanel>
             </Button>
