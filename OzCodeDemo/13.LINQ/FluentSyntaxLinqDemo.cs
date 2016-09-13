@@ -6,7 +6,7 @@ namespace OzCodeDemo._13.LINQ
 {
     [Export(typeof(IOzCodeDemo))]
     [ExportMetadata("Demo", "Linq")]
-    public class LinqDemo : IOzCodeDemo
+    public class FluentSyntaxLinqDemo : IOzCodeDemo
     {
         public void Start()
         {
