@@ -5,7 +5,7 @@ using System.Linq;
 namespace OzCodeDemo._13.LINQ
 {
     [Export(typeof(IOzCodeDemo))]
-    [ExportMetadata("Demo", "Linq")]
+    [ExportMetadata("Demo", "FluentSyntaxLinq")]
     public class FluentSyntaxLinqDemo : IOzCodeDemo
     {
         public void Start()

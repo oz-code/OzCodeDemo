@@ -73,6 +73,7 @@
     <Compile Include="11.CustomExpressions\CustomExpressionsDemo.cs" />
     <Compile Include="12.Export\ExportDemo.cs" />
     <Compile Include="13.LINQ\FluentSyntaxLinqDemo.cs" />
+    <Compile Include="13.LINQ\QuerySyntaxLinqDemo.cs" />
     <Compile Include="DemoClasses\Events\LogBook.cs" />
     <Compile Include="DemoClasses\Events\EventLoggedEventArgs.cs" />
     <Compile Include="DemoClasses\Events\EventProcessor.cs" />
