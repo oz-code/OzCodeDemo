@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
          Title="OzCode Demo" ResizeMode="CanMinimize" SizeToContent="WidthAndHeight" Icon="Resources\ozcode.ico">
+    
     <Grid>
         <Grid.Resources>
             <Style TargetType="{x:Type Image}">
