@@ -32,6 +32,24 @@
                MaxHeight="200"/>
         <UniformGrid Grid.Row="1" TextElement.FontSize="16" ButtonBase.Click="ButtonClick" Columns="4" Rows="4" Margin="15,0,15,25">
             <UniformGrid.Resources>
+                <SolidColorBrush x:Key="Button.Static.Background"
+                                 Color="#FFDDDDDD" />
+                <SolidColorBrush x:Key="Button.Static.Border"
+                                 Color="#FF707070" />
+                <SolidColorBrush x:Key="Button.MouseOver.Background"
+                                 Color="#FFBEE6FD" />
+                <SolidColorBrush x:Key="Button.MouseOver.Border"
+                                 Color="#FF3C7FB1" />
+                <SolidColorBrush x:Key="Button.Pressed.Background"
+                                 Color="#FFC4E5F6" />
+                <SolidColorBrush x:Key="Button.Pressed.Border"
+                                 Color="#FF2C628B" />
+                <SolidColorBrush x:Key="Button.Disabled.Background"
+                                 Color="#FFF4F4F4" />
+                <SolidColorBrush x:Key="Button.Disabled.Border"
+                                 Color="#FFADB2B5" />
+                <SolidColorBrush x:Key="Button.Disabled.Foreground"
+                                 Color="#FF838383" />
                 <Style TargetType="TextBlock">
                     <Setter Property="Margin" Value="0,10" />
                 </Style>
@@ -42,6 +60,61 @@
                     <Setter Property="BorderBrush" Value="#dcdcdc" />
                     <Setter Property="Template">
                         <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border x:Name="border"
+                                        BorderBrush="{TemplateBinding BorderBrush}"
+                                        BorderThickness="{TemplateBinding BorderThickness}"
+                                        Background="{TemplateBinding Background}"
+                                        SnapsToDevicePixels="true" CornerRadius="10">
+                                    <ContentPresenter x:Name="contentPresenter"
+                                                      Focusable="False"
+                                                      HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                                      Margin="{TemplateBinding Padding}"
+                                                      RecognizesAccessKey="True"
+                                                      SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"
+                                                      VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsDefaulted"
+                                             Value="true">
+                                        <Setter Property="BorderBrush"
+                                                TargetName="border"
+                                                Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}" />
+                                    </Trigger>
+                                    <Trigger Property="IsMouseOver"
+                                             Value="true">
+                                        <Setter Property="Background"
+                                                TargetName="border"
+                                                Value="{StaticResource Button.MouseOver.Background}" />
+                                        <Setter Property="BorderBrush"
+                                                TargetName="border"
+                                                Value="{StaticResource Button.MouseOver.Border}" />
+                                    </Trigger>
+                                    <Trigger Property="IsPressed"
+                                             Value="true">
+                                        <Setter Property="Background"
+                                                TargetName="border"
+                                                Value="{StaticResource Button.Pressed.Background}" />
+                                        <Setter Property="BorderBrush"
+                                                TargetName="border"
+                                                Value="{StaticResource Button.Pressed.Border}" />
+                                    </Trigger>
+                                    <Trigger Property="IsEnabled"
+                                             Value="false">
+                                        <Setter Property="Background"
+                                                TargetName="border"
+                                                Value="{StaticResource Button.Disabled.Background}" />
+                                        <Setter Property="BorderBrush"
+                                                TargetName="border"
+                                                Value="{StaticResource Button.Disabled.Border}" />
+                                        <Setter Property="TextElement.Foreground"
+                                                TargetName="contentPresenter"
+                                                Value="{StaticResource Button.Disabled.Foreground}" />
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                        <!--<Setter.Value>
                             <ControlTemplate TargetType="Button">
                                 <Border CornerRadius="11" 
                                         BorderBrush="#dcdcdc"
@@ -55,7 +128,7 @@
                                                       VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
                                 </Border>
                             </ControlTemplate>
-                        </Setter.Value>
+                        </Setter.Value>-->
                     </Setter>
                     <Setter Property="BitmapEffect">
                         <Setter.Value>
@@ -64,7 +137,7 @@
                     </Setter>
                 </Style>
             </UniformGrid.Resources>
-            <Button x:Name="Reveal"   >
+            <Button x:Name="Reveal"  >
                 <StackPanel >
                     <TextBlock Text="Reveal" />
                     <Path Data="F1M22.076,8.4L16.491,14.047 18.889,21.242C19.009,21.6 18.881,21.994 18.577,22.215 18.274,22.431 17.859,22.431 17.556,22.204L11.189,17.426 4.819,22.204C4.52,22.431 4.106,22.436 3.8,22.215 3.494,21.994 3.368,21.6 3.488,21.242L5.886,14.047 0.301,8.4C0.028,8.165 -0.071,7.786 0.054,7.448 0.18,7.11 0.501,6.885 0.862,6.885L7.986,6.885 10.372,0.588C10.49,0.237 10.818,0 11.189,0 11.559,0 11.888,0.237 12.004,0.588L14.39,6.885 21.516,6.885C21.876,6.885 22.199,7.11 22.323,7.448 22.447,7.786 22.35,8.165 22.076,8.4"
