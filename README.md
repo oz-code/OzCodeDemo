@@ -24,6 +24,7 @@ Each folder contains a demo and an easy to follow script that will explain more 
 * [Custom Expressions](OzCodeDemo/11.CustomExpressions/README.md)
 * [Export](OzCodeDemo/12.Export/README.md)
 * [LINQ Debugging](OzCodeDemo/13.LINQ/README.md)
+* [Compare](OzCodeDemo/14.Compare/README.md)
 
 ## About OzCode
 OzCode was created because we wanted a tool to accelerate and enhance our day-to-day debugging in Visual Studio. Our goal was to design a debugging environment that would be a pleasure to work with.
