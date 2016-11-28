@@ -10,7 +10,7 @@ OzCode adds the tools that help understand what the query does - at a glance and
 ## Overview   
 In this demo a sentence is split into words and grouped so that we can return the word that appears the most.  
 The issue is that instead of "bugs" the word "code" is returned. 
-Using OzCode we can investigate this issue and fix the bug but using the new LINQ debugging capabilities.
+Using OzCode we can investigate this issue and fix the bug by using the new LINQ debugging capabilities.
 
 ## Using LINQ Debugging 
 
