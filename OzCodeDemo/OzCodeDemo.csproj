@@ -74,6 +74,7 @@
     <Compile Include="12.Export\ExportDemo.cs" />
     <Compile Include="13.LINQ\FluentSyntaxLinqDemo.cs" />
     <Compile Include="13.LINQ\QuerySyntaxLinqDemo.cs" />
+    <Compile Include="14.Compare\CompareInstancesDemo.cs" />
     <Compile Include="DemoClasses\Events\LogBook.cs" />
     <Compile Include="DemoClasses\Events\EventLoggedEventArgs.cs" />
     <Compile Include="DemoClasses\Events\EventProcessor.cs" />
@@ -179,21 +180,7 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="03.ShowAllInstances\Resources\showQuickActions.PNG" />
-    <Resource Include="Resources\breakpoint_set.png" />
-    <Resource Include="Resources\compare.png" />
-    <Resource Include="Resources\custom.png" />
-    <Resource Include="Resources\debug.png" />
-    <Resource Include="Resources\exceptions-trail.png" />
-    <Resource Include="Resources\eye_scan.png" />
-    <Resource Include="Resources\filter.png" />
-    <Resource Include="Resources\foresee.png" />
     <Resource Include="Resources\ozcode.ico" />
-    <Resource Include="Resources\quick-actions.png" />
-    <Resource Include="Resources\quick_attach.png" />
-    <Resource Include="Resources\reveal.png" />
-    <Resource Include="Resources\Search.png" />
-    <Resource Include="Resources\show-instances.png" />
-    <Resource Include="Resources\trace.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="03.ShowAllInstances\Resources\breakonexceptions.png" />
@@ -247,9 +234,6 @@
     <Resource Include="05.ExceptionTrail\Resources\searchException.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\tracepointWithBP.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="06.WhenSetBreakDemo\Resources\breakWhenSetDialog.PNG" />
     <Resource Include="06.WhenSetBreakDemo\Resources\breakWhenSetDialogFinal.PNG" />
     <Resource Include="06.WhenSetBreakDemo\Resources\chooseWhenSet.PNG" />
@@ -273,9 +257,6 @@
     <Folder Include="09.MagicGlance\Resources\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\magic-glance.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="10.Predict\Resources\exceptionPrediction.PNG" />
     <Resource Include="10.Predict\Resources\firstBreakpoint.PNG" />
     <Resource Include="10.Predict\Resources\predictButton.PNG" />
@@ -296,16 +277,13 @@
     <Resource Include="11.CustomExpressions\Resources\wrongCustomer.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\lambda.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="13.LINQ\Resources\beta-05.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\export.png" />
+    <Resource Include="Resources\DemosTitle.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\DemosTitle.png" />
+    <Resource Include="14.Compare\Resources\CompareButton.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
