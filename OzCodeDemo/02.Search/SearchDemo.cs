@@ -35,7 +35,7 @@ namespace OzCodeDemo._02.Search
 
                 //Another way to do this is to view "container.Catalog.Parts", right click it,
                 //select 'Edit Filter' and enter the following predicate:
-                //         [obj].Exports(typoef(ITestComponent)
+                //         [obj].Exports(typoef(ITestComponent))
 
                 MessageBox.Show(exp.Message, "Exception caught!");
             }
