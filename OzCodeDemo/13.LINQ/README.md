@@ -1,6 +1,5 @@
 ﻿# LINQ Debugging
 
-[![Download OzCode Beta][2]](http://o.oz-code.com/LINQ_EAP)
 
 > Only Visual Studio 2015 and 2017 supported
 
