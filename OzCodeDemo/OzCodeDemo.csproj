@@ -129,6 +129,9 @@
     <Compile Include="DemoClasses\Customers\Address.cs" />
     <Compile Include="DemoClasses\Customers\Customer.cs" />
     <Compile Include="DemoClasses\Customers\CustomerRepository.cs" />
+    <Compile Include="DemoClasses\University\Department.cs" />
+    <Compile Include="DemoClasses\University\Student.cs" />
+    <Compile Include="DemoClasses\University\StudentRepository.cs" />
     <Compile Include="DemoName.cs" />
     <Compile Include="IOzCodeDemo.cs" />
     <Compile Include="MainWindow.xaml.cs">
