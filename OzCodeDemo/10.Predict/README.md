@@ -1,10 +1,12 @@
-﻿#Predict the Future
+# Predict the Future
 **OzCode performs predictive analysis of code execution (or as we like to call it: Fortune telling!)**
 
-##Overview
+## Overview
 
 **OzCode predicts the future!** You'll see an arrow pointing to where we’re going to go when we hit F10, and irrelevant code paths are made semi-transparent. **Predict** brings a new meaning to the term “Living Coding”ת by giving you instant feedback on changes you make as you’re debugging, allowing you to fix silly little coding mistakes extremely quickly.
-##Using Predict
+
+## Using Predict
+
 In order to run this demo click the _Predict_ button in the demo application.  
 
 ![Predict button](Resources/predictButton.PNG)
