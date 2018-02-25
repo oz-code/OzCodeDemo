@@ -1,9 +1,9 @@
-﻿#Setting Conditional Breakpoints
+﻿# Setting Conditional Breakpoints
 **Easily and intuitively set conditional breakpoints**
 
-##Overview
+## Overview
 ***Conditional Breakpoints*** can make debugging so much more productive, but without OzCode, using them feels like a chore. OzCode makes adding a Conditional Breakpoint super easy! In just a single click, OzCode will set up a Conditional Breakpoint based on a specific property value, and pre-fill the predicate for you.
-##Using Conditional breakpoints
+## Using Conditional breakpoints
 In order to run this demo click the _Conditional Breakpoins_ button in the demo application.  
 
 ![Conditional breakpoints button](Resources/ConditionalBreakpointsButton.PNG)
@@ -27,7 +27,7 @@ In the new dialog, replace the current customer first name with 'Robert'
 To make sure that we do not accidentally break on the wrong customer we want to add the customer surname as well ('Williams').  
 There are two ways to achieve this: 
 - Add '&&', copy the existing text, and replace 'Robert' with 'Williams' 'FirstName' with 'SurName' (or any other property - OzCode supports code completion).
-- Use OzCode's watch window: open watch, find 'SurName' and press the little '+' sign.
+- While **keeping the Conditional Breakpoint editor window open**, hover over "customer" to make the DataTip window appear, hover over the  'SurName' property and then press the little '+' sign.
  
  ![Conditional breakpoint Surname](Resources/ConditionalBreakPoint1_2.PNG)
  
