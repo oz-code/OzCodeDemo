@@ -1,9 +1,9 @@
 ﻿# Show All Instances
 **Find specific objects in memory that you want to explore**
 
-##Overview
+## Overview
 OzCode makes it trivial to find specific objects in memory that you want to explore. Just open ***Show All Instances of Type***, and you’ll be able to see every object of that type that’s currently in memory. Why is that object still in memory? Are there any objects that contain this value? OzCode’s exciting new exploration tool effortlessly and instantly answers these questions and more.
-##Using Show All Instances
+## Using Show All Instances
 In order to run this demo click the _Show All Instances_ button in the demo application.  
 ![Show All Instances button](Resources/ShowAllInstancesButton.PNG)   
 
