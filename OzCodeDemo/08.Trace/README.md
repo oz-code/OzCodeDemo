@@ -1,10 +1,10 @@
-﻿#Trace
+# Trace
 **When things get hairy, you can easily add dynamic logging on-the-fly at key points during the program’s execution, and then view the output using the fully featured integrated log-viewer that OzCode bakes into Visual Studio**
-##Overview
+## Overview
 When you’re debugging a tough problem, especially with legacy code or a heavily multi-threaded scenario, stepping through the code to figure out what the system is doing feels like trying to juggle 12 balls in your head at once. With OzCode, when things get hairy, you can easily add dynamic logging on-the-fly at key points during the program’s execution, and then view the output using the fully featured integrated log-viewer that OzCode bakes into Visual Studio. No longer will you need to stop debugging, add logging code and then rebuild each time you want to add a simple trace!
 
 Simply use the “Create Tracepoint” command on the value you want to trace. A Tracepoint is just like a Breakpoint, except that instead of breaking the program’s execution, it writes a _trace message_.
-##Using Trace
+## Using Trace
 In order to run this demo click the _Trace_ button in the demo application.  
 
 ![Trace button](Resources/traceButton.PNG)
