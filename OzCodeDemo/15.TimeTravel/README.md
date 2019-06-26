@@ -12,6 +12,7 @@ A similar poem to the one we've used for our LINQ debugging demo is used, with t
 When running the demo, you'll see that we've hit a breakpoint at the beginning of the method. 
 OzCode simulates the execution of the entire method and is able to give you numeric indicators, showing we'll go into the foreach loop 79 times, out of which 29 will enter the if statment, etc. When you hover over one of those indicators, it'll show us what those different iterations are.
 
+![Hover indicators]Image%201_hover%20to%20see%20iterations.jpg
 
 
 
