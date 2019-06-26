@@ -14,6 +14,23 @@ OzCode simulates the execution of the entire method and is able to give you nume
 
 ![Hover indicators](Image1.jpg)
 
+If you click on one of those iterations, OzCode Time Travels to that iteration, and shows you exactly what happened. 
+Since we are only interested in the word 'bugs', we can type that in, and click on the funnel icon to filter the results to show only this word. By clicking through the different iterations of the word bug, we can see the dict[currentWord] counts up with each appearance of the word, but fails to do so with latest appearance of "BUGS)".
+
+![Click through indicators](gif1.gif)
+
+We can now fix this bug, as previously:
+
+![Hover indicators](Image5.jpg)
+
+
+
+
+
+
+
+
+
 
 
 
