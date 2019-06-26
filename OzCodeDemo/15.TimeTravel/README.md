@@ -22,7 +22,7 @@ Since we are only interested in the word 'bugs', we can type that in, and click 
 
 ![Click through indicators](gif1.gif)
 
-We can now fix this bug, as previously, and as soon as we lift our fingers off of the keyboard, OzCode goes ahead and predicts the execution of the method, allowing you to instantly see that the bug is indeed fixed.
+We can now fix this bug, and as soon as we lift our fingers off of the keyboard, OzCode goes ahead and predicts the execution of the method, allowing you to instantly see that the bug is indeed fixed.
 
 ![Hover indicators](Image5.jpg)
 
