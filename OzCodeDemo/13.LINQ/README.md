@@ -1,7 +1,7 @@
 ﻿# LINQ Debugging
 
 
-> Only Visual Studio 2015 and 2017 supported
+> Only Visual Studio 2015, 2017 and 2019 supported
 
 **When using LINQ a developer is forced to use tricks to find out what was the value of a specific step in one or more iterations. In some cases even completely re-writing the same code as imperative loops just to be able to check what went wrong.  
 OzCode adds the tools that help understand what the query does - at a glance and if needed dive deep into the data passed between the various LINQ operators.**
