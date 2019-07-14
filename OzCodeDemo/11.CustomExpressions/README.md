@@ -20,7 +20,7 @@ You should stop just before the LINQ clause:
 
 Before we tackle the bug in this code let's make it easier to find our way around the customer's data: 
 
-Since a customer's name is combined from two properties: *FirstName* and *LastName* - it requires some work to find a specific customer instead let's make it easier to read customer names by adding a new "property" to the customer class.
+Since a customer's name is combined from two properties: *FirstName* and *LastName* - it requires some work to find a specific customer. Instead, let's make it easier to read customer names by adding a new "property" to the customer class.
 
 Hover over the customers collection until the watch window appears then point the cursor at on of the customers, press the magic wand and choose "create custom expression" from the dialog.
 
