@@ -1,8 +1,12 @@
 # When Set... Break
+
 **Do you ever scratch your head while debugging, asking yourself "Where did the value of this property come from?". Next time, just create a Setter Point! When the property value is changed, OzCode will break into the debugger, allowing you to inspect the state of the program and figure exactly why that problematic value got there in the first place!**
+
 ## Overview
 The toughest bugs to figure out are those that involve mutating state. What do you do if at some point during the program’s execution, the state of some objects becomes invalid, but you have no idea exactly *when* and *how* they got that way? While inspecting values in the debugger, when you spot a problematic property value, use the Magic Wand and choose “When Set -> Break”. The next time the property value is changed, OzCode will break into the debugger and allow you to inspect the state of the program, and figure exactly how that problematic value got there in the first place! These Setter Breakpoints work on both regular properties and auto-properties, and you can even add a Setter Breakpoint on properties you don’t have the source code to!
+
 ## Using When Set... Break
+
 In order to run this demo click the _When Set... Break_ button in the demo application.  
 
 ![When Break.. Set button button](Resources/whenBreakSet.PNG)
