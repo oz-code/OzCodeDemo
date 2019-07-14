@@ -7,6 +7,7 @@
 **Magic Glance**, which can be toggled by clicking the toolbar icon  (or by pressing Shift + Alt + Q), gives you amazing insight into your code, by showing you a summary of each line of code you've stepped through.
 
 ## Using Magic Glance
+
 In order to run this demo click the _Magic Glance_ button in the demo application.  
 
 ![Magic Glance button](Resources/magicGlanceButton.PNG)
