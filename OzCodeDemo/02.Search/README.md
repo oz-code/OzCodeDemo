@@ -1,10 +1,11 @@
-﻿#Search
+# Search
 **Find that needle in a haystack of data**
 
-##Overview
+## Overview
+
 When debugging objects and collections, you are often looking for a specific property or field, or a value held within a property or field. Unfortunately, this usually involves either a lot of clicking and scrolling, or writing custom debug-specific code. Finding items (even in simple structures) is not easy, not to mention doing so in a complex object graph. With our ***Search*** feature, this is no longer the case. Quickly and effortlessly search member names and values, no matter the size of the collection or complexity of the object graph!
 
-##Using Search
+## Using Search
 
 In this demo, we'll try and figure out a problem that has to do with the Managed Extensibility Framework (or MEF), which is a part of .NET that enables developers to build extensible applications with a plug-in architecture, and behaves a bit like a Dependency Injection container. If you'll notice, our entire OzCode demo application is built on top of MEF!
 
