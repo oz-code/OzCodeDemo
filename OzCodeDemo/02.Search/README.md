@@ -7,9 +7,10 @@ When debugging objects and collections, you are often looking for a specific pro
 
 ## Using Search
 
-In this demo, we'll try and figure out a problem that has to do with the Managed Extensibility Framework (or MEF), which is a part of .NET that enables developers to build extensible applications with a plug-in architecture, and behaves a bit like a Dependency Injection container. If you'll notice, our entire OzCode demo application is built on top of MEF!
+In this demo, we'll try and figure out a problem that has to do with the Managed Extensibility Framework (or MEF), which is a part of .NET that enables developers to build extensible applications with a plug-in architecture, and behaves a bit like a Dependency Injection container. And in case you havnen't noticed, our entire OzCode demo application is built on top of MEF!
 
 In order to run this demo press the _Search_ button in the demo application.  
+
 ![Search button](Resources/SearchButton.png)
 
 Immediately a message box pops since an exception was thrown:
@@ -17,7 +18,7 @@ Immediately a message box pops since an exception was thrown:
 ![Exception](Resources/exception.png)
 
 
-Oh no! This means that a MEF failure occurred, because we mistakenly registered two or more different services under the same interface. And so, when we ask MEF to give us an interface that implements the `ITestComponent` interface, MEF doesn't know which implementation to give us!
+Oh no! This means that an MEF failure occurred, because we mistakenly registered two or more different services under the same interface. And so, when we ask MEF to give us an interface that implements the `ITestComponent` interface, MEF doesn't know which implementation to give us!
 
 Since we want to break execution when the exception is thrown we have two options - either use Visual Studio's built-in exception settings dialog, or simply press the "Break on all CLR excetions" button:
 
@@ -28,7 +29,7 @@ Hover over the _container_ variable and the DataTip window will pop-up. Click on
 
 ![Search for Test](Resources/searchfortest.png)
 
-There are two components with very similar names inside _container_, but in order to make sure we need to dig deeper. Search again, and this time look for ITestComponent. 
+There are two components with very similar names inside _container_, but in order to make sure we need to dig deeper. Search again, and this time look for `ITestComponent`. 
 
 ![Search for ITestContainer](Resources/searchforitestcomponent.png)
 
