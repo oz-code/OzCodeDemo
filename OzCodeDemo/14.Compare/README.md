@@ -1,12 +1,13 @@
 # Compare Instances
 
-[![Download OzCode Beta][2]](http://o.oz-code.com/LINQ_EAP)
-> *This feature is currently in preview*  
-
 **When you want to compare files, you use a diff application to spot the differences. Unfortunately, when you need to compare two (or more) objects, you have to trust your eyes and memory. With our Compare feature, you can now spend less time squinting, and let OzCode Compare objects and collections with a simple click! The results are displayed in a side-by-side view that helps you investigate the differences and the similarities between the two objects.**
+
 ## Overview
+
 In this demo an object is serilized and deserilized but the resulting object has a few different values. Using Compare we will find those differences in order to understand what changed and find the issue.
+
 ## Using Compare
+
 In order to run this demo click the _Compare_ button in the demo application. 
 
 ![LINQ Button](Resources/compareButton.PNG)
