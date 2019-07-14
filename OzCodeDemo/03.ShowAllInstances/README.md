@@ -2,20 +2,24 @@
 **Find specific objects in memory that you want to explore**
 
 ## Overview
-OzCode makes it trivial to find specific objects in memory that you want to explore. Just open ***Show All Instances of Type***, and you’ll be able to see every object of that type that’s currently in memory. Why is that object still in memory? Are there any objects that contain this value? OzCode’s exciting new exploration tool effortlessly and instantly answers these questions and more.
+
+OzCode makes it trivial to find specific objects in memory that you want to explore. Just open ***Show All Instances of Type***, and you’ll be able to see every object of that type that’s currently in memory. Why is that object still in memory? Are there any objects that contain this value? OzCode effortlessly and instantly answers these questions and more.
+
 ## Using Show All Instances
+
 In order to run this demo click the _Show All Instances_ button in the demo application.  
 ![Show All Instances button](Resources/ShowAllInstancesButton.PNG)   
 
-Immediatly a message box pops since an exception was thrown:
+Immediatly a message box pops up since an exception was thrown:
 
 ![Exception](Resources/exceptionCaught.PNG)
  
- Not very informative and we need to investigate this problem further.  
+Not very informative and we need to investigate this problem further.  
  
- To understand the problem we need to break when the exception is thrown, and so we can either use Visual Studio's built in exception settings dialog, or simply click the "Break on all CLR excetions" button:
+To understand the problem we need to break when the exception is thrown, and so we can either use Visual Studio's built in exception settings dialog, or simply click the "Break on all CLR excetions" button:
 
-![Break on all CLR exceptions](Resources/breakonexceptions.png)  
+![Break on all CLR exceptions](Resources/breakonexceptions.png) 
+
 Re-run the sample - you should break on _SendInvoice_ call:
 
 ![Exception thrown](Resources/exceptionThrown.PNG)
@@ -31,7 +35,7 @@ Use the watch to view __pendingInvoiceId__ and choose 'Copy Value':
 
 ![Copy value](Resources/copyValue.png)
 
-Then, put your caret on the word 'Customer' (the class name) above, open the ***QuickActions*** menu:
+Then, put your caret on the word 'Customer' (the class name) above and open the ***QuickActions*** menu:
 
 ![Quick Actions](Resources/showQuickActions.PNG)
 
