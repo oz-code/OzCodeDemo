@@ -1,12 +1,10 @@
-﻿# LINQ Debugging
-
-
-> Only Visual Studio 2015, 2017 and 2019 supported
+# LINQ Debugging
 
 **When using LINQ a developer is forced to use tricks to find out what was the value of a specific step in one or more iterations. In some cases even completely re-writing the same code as imperative loops just to be able to check what went wrong.  
 OzCode adds the tools that help understand what the query does - at a glance and if needed dive deep into the data passed between the various LINQ operators.**
 
-## Overview   
+## Overview 
+
 In this demo a sentence is split into words and grouped so that we can return the word that appears the most.  
 The issue is that instead of "bugs" the word "code" is returned. 
 Using OzCode we can investigate this issue and fix the bug by using the new LINQ debugging capabilities.
