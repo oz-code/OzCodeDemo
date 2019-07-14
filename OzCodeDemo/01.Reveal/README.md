@@ -3,7 +3,8 @@
 
 ## Overview
 Objects can have many properties, but when debugging, not all of them are useful to you. You’re usually interested only in a select few. For a Customer class, it might be the ID and FirstName properties. For a Point in 3D space, it might be the X, Y, and Z fields. With OzCode's ***Reveal*** feature, you can finally focus on the data that actually matters. 
-##Using Reveal
+
+## Using Reveal
 In order to run this demo press the _Reveal_ button in the demo application.  
 ![Reveal button](Resources/RevealButton.PNG)  
 
