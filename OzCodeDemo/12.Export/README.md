@@ -1,7 +1,4 @@
-﻿# Export
-
-[![Download OzCode Beta][2]](http://o.oz-code.com/LINQ_EAP)   
-> *This feature is currently in preview*  
+# Export
 
 **Export an instance of an object as C#, XML or json.**
 
