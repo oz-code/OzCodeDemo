@@ -1,9 +1,13 @@
-﻿# Setting Conditional Breakpoints
+# Setting Conditional Breakpoints
+
 **Easily and intuitively set conditional breakpoints**
 
 ## Overview
+
 ***Conditional Breakpoints*** can make debugging so much more productive, but without OzCode, using them feels like a chore. OzCode makes adding a Conditional Breakpoint super easy! In just a single click, OzCode will set up a Conditional Breakpoint based on a specific property value, and pre-fill the predicate for you.
+
 ## Using Conditional breakpoints
+
 In order to run this demo click the _Conditional Breakpoins_ button in the demo application.  
 
 ![Conditional breakpoints button](Resources/ConditionalBreakpointsButton.PNG)
