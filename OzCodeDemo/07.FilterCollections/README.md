@@ -1,6 +1,8 @@
-﻿#Filter Collections
+# Filter Collections
+
 **With our Filter Collections feature, you can apply a filter expression to any collection**
-##Overview
+
+## Overview
 Filtering a collection in code is relatively easy and there are plenty of ways to do it. 
 
 But how do you filter while debugging?
@@ -8,7 +10,8 @@ But how do you filter while debugging?
 For example, you have a collection of customer objects, and you’d like to filter the ones that are older than 35 years. Visual Studio’s Immediate Window and Watch Window don’t support lambdas. With our _Filter Collections_ feature, you can apply a filter expression to any collection. To solve the customer problem, choose the collection of customers and set its filter to: DateTime.Today.Year – [obj].Birthday.Year > 35, press enter and see the results right away. 
 
 Once a collection is filtered, all the other features work on the filtered results as well.
-##Using Filter Collections
+
+## Using Filter Collections
 In order to run this demo click the _Filter Collections_ button in the demo application.  
 
 ![Filter Collections button](Resources/filterCollectionsButton.PNG)
