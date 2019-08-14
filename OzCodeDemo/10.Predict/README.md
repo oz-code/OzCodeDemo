@@ -4,7 +4,7 @@
 
 ## Overview
 
-**OzCode predicts the future!** You'll see an arrow pointing to where we’re going to go when we hit F10, and irrelevant code paths are made semi-transparent. **Predict** brings a new meaning to the term “Living Coding”ת by giving you instant feedback on changes you make as you’re debugging, allowing you to fix silly little coding mistakes extremely quickly.
+**OzCode predicts the future!** You'll see an arrow pointing to where we’re going to go when we hit F10, and irrelevant code paths are made semi-transparent. **Predict** brings a new meaning to the term “Living Coding” by giving you instant feedback on changes you make as you’re debugging, allowing you to fix silly little coding mistakes extremely quickly.
 
 ## Using Predict
 
